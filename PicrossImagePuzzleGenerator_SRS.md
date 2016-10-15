@@ -1,22 +1,18 @@
 #
 -----
-## Software Requirements Specification 
+# Software Requirements Specification 
 # For
-#
 # Picross Image Puzzle Generator 
-#
-#
-**Version 1.0** 
-#
+
+
+**Version 1.0** | 
 **October 15, 2016**
-#
+
+
 **Prepared by**
-#
-Lance Lott  
-#
-Shaikha Al-Mashaykhi
-#
-Zackery Lavalais
+- Lance Lott
+- Shaikha Al-Mashaykhi
+- Zackery Lavalais
 
 
 
