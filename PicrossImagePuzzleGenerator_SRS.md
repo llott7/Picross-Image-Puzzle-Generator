@@ -106,31 +106,34 @@ For developers, sections two, three and four in this document will help them lea
 A detailed overview of all inputs and outputs from the game is provided in this section. 
 A layout of how the user interface will look like and displaying views of how the user will be interacting with the game. Also, the features that should be implemented.
 
+#
 - Title Screen
-![Screen_Title](https://s12.postimg.org/76p52kgrh/Title_Screen1.png)
 
+	![Screen_Title](https://s12.postimg.org/76p52kgrh/Title_Screen1.png)
 
+#
 - Scan Option
-![Scan_Option](https://s18.postimg.org/sixfaaywp/Scan_Option1.png)
 
+	![Scan_Option](https://s18.postimg.org/sixfaaywp/Scan_Option1.png)
 
+#
 - Create Option
-![Create_Option](https://s14.postimg.org/pgcow8g75/Create_Option1.png)
+	![Create_Option](https://s14.postimg.org/pgcow8g75/Create_Option1.png)
 
-
+#
 - Solve Option
-![Solve_Option](https://s11.postimg.org/6xskqo8w3/Solve_Option1.png)
 
+	![Solve_Option](https://s11.postimg.org/6xskqo8w3/Solve_Option1.png)
+#
 - Help Menu
-![Help_Menu](https://s14.postimg.org/dbdo3onwh/Help_Menu1.png)
 
+	![Help_Menu](https://s14.postimg.org/dbdo3onwh/Help_Menu1.png)
 
+#
 - Import Option
-![Import_Option](https://s17.postimg.org/5fj9fsntr/Import_Option.png)
 
+	![Import_Option](https://s17.postimg.org/5fj9fsntr/Import_Option.png)
 
-- About Option
-![About_Option](https://s18.postimg.org/pdspsabih/About1.png)
 
 #
 **Hardware Interfaces**
