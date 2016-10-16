@@ -50,3 +50,33 @@
 7. Appendix A: Glossary                                                      
 8. Appendix B: Analysis Models                                               
 9. Appendix C: To Be Determined List                                         
+
+
+
+##1. Introduction
+**Purpose**
+
+The goal of this Software Requirements Specification (SRS) document is to provide detailed description of the Picross Image Puzzle Generator. It will provide detailed description of the following aspects of the generator. User, software and hardware Interfaces, Use cases scenarios, functional and nonfunctional requirements, features, constraints,and other aspects of the generator.
+
+
+#
+**Document Convention**
+
+This documents follows the IEEE standard 830-1998 software requirements document template. The requirements formatting follows the professor of the CSC 4330 course, Dr. Anas Mahmoud, at Louisiana State University. Bold text is used for emphasizing sections and sub-sections headings. Italicized text is used to label words in the glossary and diagrams.
+
+#
+**Intended Audience and Reading Suggestions** 
+
+This document is for software developers, project managers, customers, users, testers, investors, documentation writes, and anyone who is interested in the Picross Image Puzzle Generator. Section one of this document will give you a better understanding the goal of the Picross generator. 
+
+Section two is more useful for the users of the Picross Image Puzzle Generator and for who would like to learn more about what can potentially be done with the generator. Section two also provides the Picross Image Puzzle Generator overview in more details through providing different use cases. 
+
+For developers, sections two, three and four in this document will help them learn about the expected functionalities, more about the software and user interface design of the generator, and lastly but not least the features of the generator and the constraints.
+
+#
+**Product Scope**
+
+
+
+**References**
+  - SFML – Simple and Fast Multimedia Library: http://www.sfml-dev.org/learn.php 
