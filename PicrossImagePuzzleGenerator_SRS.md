@@ -80,6 +80,7 @@ For developers, sections two, three and four in this document will help them lea
 
 **References**
   - SFML – Simple and Fast Multimedia Library: http://www.sfml-dev.org/learn.php 
+  - OpenCV - Open Source Computer Vision Library: http://opencv.org/about.html
  
 -----
 ###2. Overall Description
