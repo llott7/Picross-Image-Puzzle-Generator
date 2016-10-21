@@ -76,7 +76,7 @@ For developers, sections two, three and four in this document will help them lea
 #
 **Product Scope**
 
-
+Picross Image Puzzle Generator is a Windows based application targeted toward anyone that's a fan of Picross. The purpose of the application is to allow a user of any type to solve a Picross puzzle, upload a picture of an existing Picross puzzle to be solved, or create their own Picross puzzles. This project was conceived from the fact that while we had a passion for Picross, we understand that some of the puzzles are quite difficult and wanted to offer players an alternate approach when they're attempting their puzzles.
 
 **References**
   - SFML – Simple and Fast Multimedia Library: http://www.sfml-dev.org/learn.php 
@@ -86,8 +86,13 @@ For developers, sections two, three and four in this document will help them lea
 ###2. Overall Description
 
 **Product Perspective**
+Picross Image Puzzle Generator is a stand-alone application designed for Windows PCs. The application is made in C++ using SFML for the user interface aspects and puzzle importing and exporting options. As well as using the OpenCV library for improving the consistency and accuracy at which we can solve the puzzles given. In the future, we may look into porting the application over to both iOS and Android operating systems, but at the moment this is solely a Windows based project.
 
 **Product Functions**
+1. Solve a Picross puzzle
+	a. Allow user to import an existing Picross puzzle as a JPG/PNG file 
+	b. Allow user to solve the puzzle themselves with the assistance of a "Help" function or let the application solve it for them
+2. Create a Picross puzzle
 
 **User Classes and Characteristics**
 
