@@ -92,21 +92,25 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 **Product Functions**
 
 1. Solve a Picross puzzle
-          a. Allow user to import an existing Picross puzzle as a JPG/PNG file 
-          b. Allow user to solve the puzzle themselves
-          c. User can allow the program to attempt to solve the puzzle itself
+
+	a. Allow user to import an existing Picross puzzle as a JPG/PNG file 
+	b. Allow user to solve the puzzle themselves
+	c. User can allow the program to attempt to solve the puzzle itself
 	
 2. Create a Picross puzzle
+
 	a. User can choose from a variety of sizes to set as their Picross layout
 	b. User can set the values for the puzzles, effectively creating something that's entirely their own
 	c. System will then proceed to check if the puzzle the user created is valid
 	d. User can then save the puzzle they've created or further modify it
 3. Scan puzzles
+
 	a. User will be able to upload an image of a Picross puzzle
 	b. User can scan the image of the puzzle
 	c. System checks to see if the image of the puzzle is within the preset limits of the program (i.e. 15 x 15, 20 x 20)
 	d. User can then modify or solve the puzzle with or without help from the program
 4. Help
+
 	a. Users can get hints when working on a puzzle from the System
 	
 **User Classes and Characteristics**
