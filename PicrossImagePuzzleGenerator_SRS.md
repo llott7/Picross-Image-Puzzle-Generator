@@ -1,4 +1,4 @@
-#
+﻿#
 -----
 # Software Requirements Specification 
 # For
@@ -155,7 +155,7 @@ OpenCV - We will use OpenCV to help the users scan their puzzles into the progra
 
 Reference: http://opencv.org/about.html
 
-SFML - We will use SFML as a basis for developing our UI. It'll provide us with the tools we need to access the image files.
+SFML - We will use SFML as a basis for developing our UI. It will provide us with the tools we need to access the image files.
 
 Reference: http://www.sfml-dev.org/learn.php 
 
