@@ -76,7 +76,7 @@ For developers, sections two, three and four in this document will help them lea
 #
 **Product Scope**
 
-Picross Image Puzzle Generator is a Windows based application targeted toward anyone that's a fan of Picross. The purpose of the application is to allow a user of any type to solve a Picross puzzle, import a picture of an existing Picross puzzle, create their own Picross puzzles, or scan a Picross puzzle to be solved. This project was conceived from the fact that while we had a passion for Picross, we understand that some of the puzzles are quite difficult and wanted to offer players an alternate approach when they're attempting their puzzles.
+Picross Image Puzzle Generator is a Windows based program targeted toward anyone that's a fan of Picross. The purpose of the program is to allow a user of any type to solve a Picross puzzle, import a picture of an existing Picross puzzle, create their own Picross puzzles, or scan a Picross puzzle to be solved. This project was conceived from the fact that while we had a passion for Picross, we understand that some of the puzzles are quite difficult and wanted to offer players an alternate approach when they're attempting their puzzles.
 
 **References**
   - SFML – Simple and Fast Multimedia Library: http://www.sfml-dev.org/learn.php 
@@ -87,14 +87,14 @@ Picross Image Puzzle Generator is a Windows based application targeted toward an
 
 **Product Perspective**
 
-Picross Image Puzzle Generator is a stand-alone application designed for Windows PCs. The application is made in C++ using SFML for the user interface aspects and puzzle importing and exporting options. As well as using the OpenCV library for improving the consistency and accuracy at which we can solve the puzzles given. In the future, we may look into porting the application over to both iOS and Android operating systems, but at the moment this is solely a Windows based project.
+Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs. The program is made in C++ using SFML for the user interface aspects and puzzle importing and exporting options as well as using the OpenCV library for improving the consistency and accuracy at which we can solve the puzzles given. In the future, we may look into porting the program over to one or both iOS and Android operating systems, but at the moment this is solely a Windows based project.
 
 **Product Functions**
 
 1. Solve a Picross puzzle
           a. Allow user to import an existing Picross puzzle as a JPG/PNG file 
-           b. Allow user to solve the puzzle themselves
-           c. User can allow the application to attempt to solve the puzzle itself
+          b. Allow user to solve the puzzle themselves
+          c. User can allow the program to attempt to solve the puzzle itself
 	
 2. Create a Picross puzzle
 	a. User can choose from a variety of sizes to set as their Picross layout
@@ -104,8 +104,8 @@ Picross Image Puzzle Generator is a stand-alone application designed for Windows
 3. Scan puzzles
 	a. User will be able to upload an image of a Picross puzzle
 	b. User can scan the image of the puzzle
-	c. System checks to see if the image of the puzzle is within the preset limits of the application (i.e. 15 x 15, 20 x 20)
-	d. User can then modify or solve the puzzle with or without help from the application
+	c. System checks to see if the image of the puzzle is within the preset limits of the program (i.e. 15 x 15, 20 x 20)
+	d. User can then modify or solve the puzzle with or without help from the program
 4. Help
 	a. Users can get hints when working on a puzzle from the System
 	
@@ -113,11 +113,27 @@ Picross Image Puzzle Generator is a stand-alone application designed for Windows
 
 **Operating Environment**
 
+Picross Image Puzzle Generator will be targeted towards the Windows operating system. The ease at which you can take an image file and upload it to an program or website while on a PC is something that we intend to take full advantage of. We intend to use OpenCV as the primary scanning tool when users upload their files for solving/modifying. We also aren't doing anything that is too strenous on the CPU, so this should perform well on any Windows device regardless of the processor. 
+
+(add extra stuff about SFML and other hard coding aspects here, I added what I knew about!)
+
 **Design and Implementation Constraints**
+
+The largest design constraint is the fact that this is a Windows based program running solely on PCs. Since it's only on PC, unless you're carrying a laptop around, if you need it on the go, you're out of luck. Given that Picross is a game made for a portable console, this is something that imposes a major design constraint. Another design constraint is efficiency (given our program isn't CPU intensive, we want it to be as optimal as possible to avoid unnecessary strain).
 
 **User Documentation**
 
 **Assumptions and Dependencies**
+
+Hardware Dependencies 
+
+The scanning feature will depend on the image file being present on the computer/some other external drive.
+
+Software Dependencies
+
+OpenCV - We will use OpenCV to help the users scan their puzzles into the program and further modifying, view, or solve them. 
+
+Reference: http://opencv.org/about.html
 
 -----
 ###3. External Interface Requirements**
@@ -165,9 +181,15 @@ A layout of how the user interface will look like and displaying views of how th
 #
 **Hardware Interfaces**
 
+Picross Iamge Puzzle Solver is a program designed and developed for Windows based platforms and should work on every PC running the Windows operating system. The program is being developed using C++ and is its own standalone program with no ties to a database or server. As previously stated, as long as the user is running the program on a Windows PC, they should have complete use of every function that the program offers. 
+
 **Software Interfaces**
 
+
+
 **Communications Interfaces**
+
+Being that the program is standalone, it doesn't need to communicate with anything. This program doesn't need to connect to any kind of network to use and is free of any kind of server or database communication. 
 
 -----
 ###4. System Features                                                        
