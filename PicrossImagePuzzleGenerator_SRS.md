@@ -90,39 +90,44 @@ Picross Image Puzzle Generator is a Windows based program targeted toward anyone
 Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs. The program is made in C++ using SFML for the user interface aspects and puzzle importing and exporting options as well as using the OpenCV library for improving the consistency and accuracy at which we can solve the puzzles given. In the future, we may look into porting the program over to one or both iOS and Android operating systems, but at the moment this is solely a Windows based project.
 
 **Product Functions**
-(Format me, Shaikha)
+(Help with editing?)
 
-1. Solve a Picross puzzle
+1. Create a Picross Puzzle
 
-	a. Allow user to import an existing Picross puzzle as a JPG/PNG file 
+	a. User can choose the size of the puzzle, from 5x5 to 25x25
 	
-	b. Allow user to solve the puzzle themselves
+	b. User can choose which pieces of the puzzle are filled, effectively creating something that's entirely their own
 	
-	c. User can allow the program to attempt to solve the puzzle itself
+	c. System will create the values for the puzzle and verify the puzzle. The System will identify whether the puzzle is unique and show all possible solutions
 	
-2. Create a Picross puzzle
+	d. User can export the puzzle they've created as a plaintext file or further modify it
 
-	a. User can choose from a variety of sizes to set as their Picross layout
-	
-	b. User can set the values for the puzzles, effectively creating something that's entirely their own
-	
-	c. System will then proceed to check if the puzzle the user created is valid
-	
-	d. User can then save the puzzle they've created or further modify it
-	
-3. Scan puzzles
+2. Import a Picross Puzzle
 
-	a. User will be able to upload an image of a Picross puzzle
+	a. User can import a previously created puzzle from a plaintext file
 	
-	b. User can scan the image of the puzzle
+	b. System will load this puzzle in the Solver window
 	
-	c. System checks to see if the image of the puzzle is within the preset limits of the program (i.e. 15 x 15, 20 x 20)
-	
-	d. User can then modify or solve the puzzle with or without help from the program
-	
-4. Help
+3. Scan an Image
 
-	a. Users can get hints when working on a puzzle from the System
+	a. User can import an image file to be converted to a puzzle
+	
+	b. User can choose the size of the puzzle, and set the tolerances to convert the image
+	
+	c. System will convert the image into a simple Picross Puzzle
+	
+	d. System will verify the puzzle and identify all solutions
+	
+	e. User can export the puzzle they've created as a plaintext file or further modify it
+	
+4. Solve a Picross Puzzle
+
+	a. User can attempt to solve a puzzle on their own
+	
+	b. User can use the help function to ask the System for hints as to their next step
+	
+	c. User can allow the System to solve the puzzle for them
+
 	
 **User Classes and Characteristics**
 
