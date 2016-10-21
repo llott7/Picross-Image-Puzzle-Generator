@@ -130,7 +130,7 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 
 Picross Image Puzzle Generator will be targeted towards the Windows operating system. The ease at which you can take an image file and upload it to an program or website while on a PC is something that we intend to take full advantage of. We intend to use OpenCV as the primary scanning tool when users upload their files for solving/modifying. We also aren't doing anything that is too strenous on the CPU, so this should perform well on any Windows device regardless of the processor. 
 
-(add extra stuff about SFML and other hard coding aspects here, I added what I knew about!)
+When it comes to the user interface we're relying on SFML to do that work for us. It'll allow us to have a clean and simple interface for the users to navigate through as well as maintain all the functionality that we're hoping for. Since one of our main goals is to ofefer the ability to scan and solve puzzles in the program, the UI must be clear and easily navigable so our users aren't stuck in a series of menus.
 
 **Design and Implementation Constraints**
 
@@ -149,6 +149,10 @@ Software Dependencies
 OpenCV - We will use OpenCV to help the users scan their puzzles into the program and further modifying, view, or solve them. 
 
 Reference: http://opencv.org/about.html
+
+SFML - We will use SFML as a basis for developing our UI. It'll provide us with the tools we need to access the image files.
+
+Reference: http://www.sfml-dev.org/learn.php 
 
 -----
 ###3. External Interface Requirements**
@@ -196,10 +200,13 @@ A layout of how the user interface will look like and displaying views of how th
 #
 **Hardware Interfaces**
 
-Picross Iamge Puzzle Solver is a program designed and developed for Windows based platforms and should work on every PC running the Windows operating system. The program is being developed using C++ and is its own standalone program with no ties to a database or server. As previously stated, as long as the user is running the program on a Windows PC, they should have complete use of every function that the program offers. 
+Picross Iamge Puzzle Generator is a program designed and developed for Windows based platforms and should work on every PC running the Windows operating system. The program is being developed using C++ and is its own standalone program with no ties to a database or server. As previously stated, as long as the user is running the program on a Windows PC, they should have complete use of every function that the program offers. 
 
 **Software Interfaces**
 
+The Picross Image Puzzle Generator is to be developed for Winndows operating systems using C++ alongside the OpenCV and SFML libraries. The program doesn't communicate with other devices. So, instead our focus is on gaining access to the computer's storage. 
+
+Having access to the computer's storage is an important part of this project as it'll allow users to upload and save their puzzles whenever they want. This is one of the largest functional requirements this program has and could adversely affect our performance if not handled well. All in all, access to our upload and save features combined with the scanning and creating features are something we seriously value so opening up the computer's storage is an important value to have.
 
 
 **Communications Interfaces**
