@@ -377,7 +377,7 @@ Being that the program is standalone, it doesn't need to communicate with anythi
 | Summary | The system should be easy to use |
 | Rational | If the system is difficult to use, users may not like the system and fail to use it |
 | Requirements | Any function should be reachable from the home page with three or less clicks of menu navigation. Buttons should be clearly labeled and have tooltips explaining their functions. |
-| References | |
+| References | None |
 
 -----
 ###6. Appendix A: Glossary                                                      
