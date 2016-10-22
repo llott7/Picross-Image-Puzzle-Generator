@@ -200,6 +200,15 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Basic Course of Events | <ul><li>User clicks "Solve it for me" button</li></ul> |
 | References | UC 2.3.1, UC 2.3.2, UC 2.3.3, UC 2.3.6 |
 
+| Item | UC 2.3.8 About Picross |
+| --- | --- |
+| Summary | User can view a summary of the game and how puzzles are solved |
+| Rational | User may be unfamiliar with Picross |
+| Users | Puzzle Solver, New User |
+| Preconditions | <ul><li>Program is open</li></ul> |
+| Basic Course of Events | <ul><li>User clicks "About" button</li></ul> |
+| References | N/A |
+
 
 **Operating Environment**
 
