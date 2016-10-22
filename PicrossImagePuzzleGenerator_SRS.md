@@ -200,6 +200,7 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Basic Course of Events | <ul><li>User clicks "Solve it for me" button</li></ul> |
 | References | UC 2.3.1, UC 2.3.2, UC 2.3.3, UC 2.3.6 |
 
+
 **Operating Environment**
 
 Picross Image Puzzle Generator will be targeted towards the Windows operating system. The ease at which you can take an image file and upload it to an program or website while on a PC is something that we intend to take full advantage of. We intend to use OpenCV as the primary scanning tool when users upload their files for solving/modifying. We also aren't doing anything that is too strenous on the CPU, so this should perform well on any Windows device regardless of the processor. 
@@ -289,8 +290,20 @@ Being that the program is standalone, it doesn't need to communicate with anythi
 
 -----
 ###4. System Features                                                        
-    **System Feature 1**
-    **System Feature 2**
+
+| Item | FR-4.1: Import Puzzle |
+| --- | --- |
+| Summary | The system should allow users to import puzzle files they or other users have created |
+| Rational | Users may want to solve or edit puzzles created by themselves or other users |
+| Requirements | The application should verify that the file is a valid puzzle file. If it is valid, the application will load the puzzle in the Solve window. If it is not valid, the application will display an error message. |
+| References | UC 2.3.1: Import Puzzle |
+
+| Item | FR-4.2: Scan Image |
+| --- | --- |
+| Summary | The system should convert image files into puzzles based on the user's requirements |
+| Rational | Users may wish to create puzzles based off of images without trying to copy over the images likeness in the Create Puzzle window |
+| Requirements | The application should verify that the file is an image file. If it is valid, the application will load the image into the Scan Image window. If it is not valid, the application will display an error message. |
+| References | UC 2.3.2: Scan Image, UC 2.3.3: Create Puzzle |
 	
 	
 -----
