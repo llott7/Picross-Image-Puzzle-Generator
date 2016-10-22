@@ -140,6 +140,7 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Basic Course of Events | <ul><li>User clicks "Import" button</li><li>User navigates to the puzzle file</li><li>User clicks "Import" button</li></ul> |
 | References | N/A |
 
+
 | Item | UC 2.3.2 Scan Image |
 | --- | --- |
 | Summary | User can scan images to create puzzles |
@@ -148,6 +149,7 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Preconditions | <ul><li>User has an image file on their computer</li></ul> |
 | Basic Course of Events | <ul><li>User clicks "Scan" button</li><li>User navigates to the image file</li><li>User clicks "Scan" button</li><li>User sets size and tolerances in fields</li><li>Once the puzzle looks correct, User clicks "Create Puzzle" button</li></ul> |
 | References | N/A |
+
 
 | Item | UC 2.3.3 Create Puzzle |
 | --- | --- |
@@ -158,14 +160,16 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Basic Course of Events | <ul><li>User clicks "Create Puzzle" button</li><li>User sets the size of the puzzle</li><li>User fills in tiles to create their puzzle</li><li>User clicks "Create Puzzle"</li></ul> |
 | References | N/A |
 
+
 | Item | UC 2.3.4 Edit Puzzle |
 | --- | --- |
 | Summary | User can edit puzzles they have open |
 | Rational | User should be able to edit their own puzzles or make changes to existing puzzles |
 | Users | Puzzle Creator |
 | Preconditions | <ul><li>Puzzle has been loaded in, either by Create Puzzle, Scan Image, or Import Puzzle</li></ul> |
-| Basic Course of Events | <ul><li>User fills in tiles to edit their puzzle</li><li>User clicks "Create Puzzle"</li></ul> |
+| Basic Course of Events | <ul><li>User clicks "Edit Puzzle"</li><li>User fills in tiles to edit their puzzle</li><li>User clicks "Create Puzzle"</li></ul> |
 | References | UC 2.3.1, UC 2.3.2, UC 2.3.3 |
+
 
 | Item | UC 2.3.5 Export Puzzle |
 | --- | --- |
@@ -174,7 +178,27 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Users | Puzzle Creator |
 | Preconditions | <ul><li>Puzzle has been loaded in, either by Create Puzzle, Scan Image, or Import Puzzle</li></ul> |
 | Basic Course of Events | <ul><li>User clicks "Export Puzzle"</li><li>User navigates to the location they want to save the file</li><li>User names the puzzle file</li><li>User clicks "Export Puzzle"</li></ul> |
-| References | UC 2.3.1, UC 2.3.2, UC 2.3.3, UC 2.3.4 |
+| References | UC 2.3.1, UC 2.3.2, UC 2.3.3 |
+
+
+| Item | UC 2.3.6 Solve Puzzle |
+| --- | --- |
+| Summary | User can try to solve a puzzle on their own |
+| Rational | User should be able to try to solve puzzles |
+| Users | Puzzle Solver |
+| Preconditions | <ul><li>Puzzle has been loaded in, either by Create Puzzle, Scan Image, or Import Puzzle</li></ul> |
+| Basic Course of Events | <ul><li>User fills in tiles or places X's on tiles to try to solve the puzzle</li><li>User clicks "Check Solution" button</ul> |
+| References | UC 2.3.1, UC 2.3.2, UC 2.3.3 |
+
+
+| Item | UC 2.3.7 Use Solver |
+| --- | --- |
+| Summary | User can ask the program to solve the puzzle for them |
+| Rational | User may have puzzles that are too difficult for them to solve |
+| Users | Puzzle Solver |
+| Preconditions | <ul><li>Puzzle has been loaded in, either by Create Puzzle, Scan Image, or Import Puzzle</li></ul> |
+| Basic Course of Events | <ul><li>User clicks "Solve it for me" button</li></ul> |
+| References | UC 2.3.1, UC 2.3.2, UC 2.3.3, UC 2.3.6 |
 
 **Operating Environment**
 
