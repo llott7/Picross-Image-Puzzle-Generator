@@ -191,7 +191,17 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | References | UC 2.3.1, UC 2.3.2, UC 2.3.3 |
 
 
-| Item | UC 2.3.7 Use Solver |
+| Item | UC 2.3.7 Ask for Help |
+| --- | --- |
+| Summary | User can ask the system for help on a puzzle |
+| Rational | User may get stuck on a puzzle and require a hint on their next move |
+| Users | Puzzle Solver |
+| Preconditions | <ul><li>Puzzle has been loaded in, either by Create Puzzle, Scan Image, or Import Puzzle</li></ul> |
+| Basic Course of Events | <ul><li>User clicks "Give me a hint" button</li></ul> |
+| References | UC 2.3.1, UC 2.3.2, UC 2.3.3, UC 2.3.6 |
+
+
+| Item | UC 2.3.8 Use Solver |
 | --- | --- |
 | Summary | User can ask the program to solve the puzzle for them |
 | Rational | User may have puzzles that are too difficult for them to solve |
@@ -200,7 +210,7 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Basic Course of Events | <ul><li>User clicks "Solve it for me" button</li></ul> |
 | References | UC 2.3.1, UC 2.3.2, UC 2.3.3, UC 2.3.6 |
 
-| Item | UC 2.3.8 About Picross |
+| Item | UC 2.3.9 About Picross |
 | --- | --- |
 | Summary | User can view a summary of the game and how puzzles are solved |
 | Rational | User may be unfamiliar with Picross |
@@ -313,6 +323,62 @@ Being that the program is standalone, it doesn't need to communicate with anythi
 | Rational | Users may wish to create puzzles based off of images without trying to copy over the images likeness in the Create Puzzle window |
 | Requirements | The application should verify that the file is an image file. If it is valid, the application will load the image into the Scan Image window. If it is not valid, the application will display an error message. |
 | References | UC 2.3.2: Scan Image, UC 2.3.3: Create Puzzle |
+
+| Item | FR-4.3: Create Puzzle |
+| --- | --- |
+| Summary | The system should allow users to create puzzles from scratch based on the tile grid |
+| Rational | Users may wish to create puzzles that are not based on images they have |
+| Requirements | None |
+| References | UC 2.3.3: Create Puzzle |
+
+| Item | FR-4.4: Edit Puzzle |
+| --- | --- |
+| Summary | The system should allow users to edit puzzles they have loaded in |
+| Rational | Users may want to continue working on puzzles they previously created, or edit puzzles other people have created |
+| Requirements | A puzzle must currently be loaded in to the Solve window |
+| References | UC 2.3.4: Edit Puzzle |
+
+| Item | FR-4.5: Export Puzzle |
+| --- | --- |
+| Summary | The system should allow users to export puzzles to a puzzle file |
+| Rational | Users may want to save their work or share their puzzles with other people |
+| Requirements | A puzzle must currently be loaded in to the Edit window |
+| References | UC 2.3.5: Export Puzzle |
+
+| Item | FR-4.6: Solve Puzzle |
+| --- | --- |
+| Summary | The system should allow users to try to solve puzzles on their own |
+| Rational | Users may want to try to solve puzzles they or others have created |
+| Requirements | A puzzle must be currently loaded into the Solve window |
+| References | UC 2.3.6: Solve Puzzle |
+
+| Item | FR-4.7: Auto Hint Marking |
+| --- | --- |
+| Summary | The system should mark off hints that are used as the user solves puzzles |
+| Rational | It is hard to track which hints have been used |
+| Requirements | A User must be solving a puzzle |
+| References | UC 2.3.6: Solve Puzzle |
+
+| Item | FR-4.8: Ask for Help |
+| --- | --- |
+| Summary | The system should be able to give users hints as to which moves they should try next |
+| Rational | Users may get stuck on one part of the puzzle and need help to move along |
+| Requirements | A User must be solving a puzzle |
+| References | UC 2.3.7: Ask for Help |
+
+| Item | FR-4.9: Use Solver |
+| --- | --- |
+| Summary | The system should be able to solve puzzles |
+| Rational | Users may have trouble with a puzzle or want to see the end result |
+| Requirements | A User must be solving a puzzle |
+| References | UC 2.3.8: Use Solver |
+
+| Item | FR-4.10: About Picross |
+| --- | --- |
+| Summary | The system should display information about Picross puzzles |
+| Rational | Some users may be unfamiliar with how Picross works and is played |
+| Requirements | None |
+| References | UC 2.3.9: About Picross |
 	
 	
 -----
