@@ -146,7 +146,16 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 | Rational | User should be able to create puzzles out of images |
 | Users | Puzzle Creator |
 | Preconditions | <ul><li>User has an image file on their computer</li></ul> |
-| Basic Course of Events | <ul><li>User clicks "Scan" button</li><li>User navigates to the image file</li><li>User clicks "Scan" button</li><li>User sets resolution and tolerances in fields</li><li>Once the puzzle looks correct, User clicks "Create Puzzle" button</li></ul> |
+| Basic Course of Events | <ul><li>User clicks "Scan" button</li><li>User navigates to the image file</li><li>User clicks "Scan" button</li><li>User sets size and tolerances in fields</li><li>Once the puzzle looks correct, User clicks "Create Puzzle" button</li></ul> |
+| References | N/A |
+
+| Item | UC 2.3.3 Create Puzzle |
+| --- | --- |
+| Summary | User can color tiles to create puzzles |
+| Rational | User should be able to create puzzles from nothing |
+| Users | Puzzle Creator |
+| Preconditions | <ul><li>Program is open</li></ul> |
+| Basic Course of Events | <ul><li>User clicks "Create Puzzle" button</li><li>User sets the size of the puzzle</li><li>User fills in tiles to create thier puzzle</li><li>User clicks "Create Puzzle"</li></ul> |
 | References | N/A |
 
 **Operating Environment**
