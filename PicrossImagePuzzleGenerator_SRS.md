@@ -382,3 +382,12 @@ Being that the program is standalone, it doesn't need to communicate with anythi
 -----
 ###6. Appendix A: Glossary                                                      
 
+| Term | Definition |
+| --- | --- |
+| Picross | The type of puzzle this application is associated with |
+| Puzzle | An individual puzzle, involving a grid and clues
+| Puzzle File | A plaintext file that holds the information for the puzzle |
+| User | A person using the system |
+| Puzzle Creator | A person creating a puzzle |
+| Puzzle Solver | A person solving a puzzle |
+| New User | A person unfamiliar with the rules of Picross |
