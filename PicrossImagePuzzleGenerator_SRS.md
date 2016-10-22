@@ -131,6 +131,15 @@ Picross Image Puzzle Generator is a stand-alone program designed for Windows PCs
 	
 **User Classes and Characteristics**
 
+| Item | UC 2.3.1 Import Puzzle |
+| --- | --- |
+| Summary | User must be able to import puzzles |
+| Rational | User needs a puzzle to solve if they want to solve a puzzle |
+| Users | Puzzle Solver |
+| Preconditions | <ul><li>User has a puzzle file on their computer</li></ul> |
+| Basic Course of Events | <ul><li>User clicks "Import" button</li><li>User navigates to the puzzle file</li><li>User chooses the file</li><li>User clicks "Import"</li></ul> |
+| References | N/A |
+
 **Operating Environment**
 
 Picross Image Puzzle Generator will be targeted towards the Windows operating system. The ease at which you can take an image file and upload it to an program or website while on a PC is something that we intend to take full advantage of. We intend to use OpenCV as the primary scanning tool when users upload their files for solving/modifying. We also aren't doing anything that is too strenous on the CPU, so this should perform well on any Windows device regardless of the processor. 
