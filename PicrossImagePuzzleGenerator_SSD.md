@@ -113,6 +113,7 @@ This feature is the exact opposite of the help feature in that instead of aiding
 
 **2.4 Puzzle Creation**
 
+The puzzle creation feature is something that we're pushing really hard. Enabling the user to not only scan in an existing puzzle and form and shape it into a new puzzle is something really innovative and unique. The most important part of this feature, though, is the ability to craft your own puzzle from scratch. The only limitation we're putting forth is on the size, which is currently being determined. Aside from that, a user can create their own puzzle in any way they feel or see fit with our system. Once they're done making it, the system then verifies that it passes all qualifications to be considered a legitimate Picross puzzle and then prompts the user to save it to their computer. 
 
 
 -----
