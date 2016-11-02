@@ -169,7 +169,6 @@ The puzzle creation feature is something that we're pushing really hard. Enablin
 The UI for the Picross Image Puzzle Generator is designed to be easy to use. 
 When the users start the Picross Image Puzzle Generator(PIPG) game, they will see the main view which displays the title and the main menu of the PIPG game.
 The main menu includes the following options: Scan, Create, Import, and about. When the users click on the Scan option, the current view will be changed from the main view to Scan view. 
-Similarly with the other options in the main menu, where each one of the options takes the user to the view of the same name.
 
 In the scan view: the user will be able to browse an existed image in their PC by clicking on the open button. Where the image will be converted to a puzzle and it will be go through a system check where the
 PIPG check system checks if the puzzle has a unique solution, the size is within the range provided. After passing the check system, the user can export the puzzle or he/she can click on (solve) button which will take them to the Solve view.
@@ -184,8 +183,7 @@ The user can use the two features provided. If the user does not know what the n
 
 The the Import view: When the user click on the the Import option in the main menu, an open file window will pop up. This feature allows the user to import existed picross puzzle type files. Then it will take the user to the Solve view directly to solve the puzzle.
 
-In the About view: This view will display a brief summary about the Picross Image Puzzle Generator and team members. The user can also go back to the main view by clicking on the back button.
 
 **User Interface Design**
 	
-![Picture3](https://s11.postimg.org/jxfunmjkj/Picture3.png)
+![Picture1](https://s15.postimg.org/tliwh1lor/Picture1.png)
