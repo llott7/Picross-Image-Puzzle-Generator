@@ -180,6 +180,8 @@ The program logic development is currently being designed by Lance as his primar
 ----
 ###9. User interfaces
 
+The following sections provide a description of the User Interface and an example diagram of the interface for the Picross Image Puzzle Generator.
+
 **User Interface Description**
 
 
