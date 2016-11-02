@@ -166,8 +166,23 @@ The puzzle creation feature is something that we're pushing really hard. Enablin
 
 **User Interface Description**
 
-The UI for the Picross Image Puzzle Generator is designed to be easy to use. When the users start the Picross Image Puzzle Generator, they will see the title and the main state view. The main state view will display the title and the main menu of the Picross Image Puzzle Generator. The main menu includes Scan, Create, Import, and about. Each option in the main menu is connected to a state of the same name that handles all the evenets and actions related to that option. When the users click on the Scan option, the current state will be changed from Main State to Scan State. In the scan state, the user will be able to take an image and convert it to a puzzle by clicking on Scan button, 
-they will be able to browse an existed image in their PC by clicking on the open button, they can go back to the main menu by clicking the back button.
+The UI for the Picross Image Puzzle Generator is designed to be easy to use. 
+When the users start the Picross Image Puzzle Generator(PIPG) game, they will see the main view which displays the title and the main menu of the PIPG game.
+The main menu includes the following options: Scan, Create, Import, and about. When the users click on the Scan option, the current view will be changed from the main view to Scan view. 
+
+In the scan view: the user will be able to browse an existed image in their PC by clicking on the open button. Where the image will be converted to a puzzle and it will be go through a system check where the
+PIPG check system checks if the puzzle has a unique solution, the size is within the range provided. After passing the check system, the user can export the puzzle or he/she can click on (solve) button which will take them to the Solve view.
+The users can also go back to the main view by clicking the back button.
+
+In the Create view: The user will be asked to enter a size of the puzzle he/she wants in pixels. Then an empty grid of that size will be displayed with extra colums and rows which will allow the use to enter the numbers of their puzzle.
+The create view provides the (check) feature for the users to help them check if their puzzle is unique or not. The user is also given the option of exporting their puzzle or to go to the solve view to solve the puzzle they created.
+The users can also go back to the main view by clicking the back button.
+
+In the Solve view: This view will be accessed from the Scan, create and import views. Here, the user can solve the puzzle he/she got from an image they upload it, the puzzle they created, or the puzzle the imported.
+The user can use the two features provided. If the user does not know what the next step is the (give me hint) feature will provide hints that help the user be on the right track of the game. However, if the user is looking for a solution, the  (solve it for me) feature will  provide the solution.
+
+The the Import view: When the user click on the the Import option in the main menu, an open file window will pop up. This feature allows the user to import existed picross puzzle type files. Then it will take the user to the Solve view directly to solve the puzzle.
+
 
 **User Interface Design**
 	
