@@ -175,6 +175,10 @@ Our assignemnts are:
 * User Interface Design: Shaikha Al-Mashaykhi
 * Front-End Development: Lance Lott
 * API integration: Zackery Lavalais	
+
+The UI design is mostly complete for the most part and is being handled by Shaikha. She has an interest in UI design and volunteered for this particular role almost instantly. We're using SFML to develop the UI and after working with it for a while she's gotten comfortable with it and it's almost at completion.
+
+The program logic development is currently being designed by Lance as his primary skills, experience, and main interest in the program drove him to want to hard code and develop this part of the program. 
 	
 ----
 ###9. Element catalog
