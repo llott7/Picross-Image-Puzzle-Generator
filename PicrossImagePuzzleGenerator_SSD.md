@@ -1,6 +1,6 @@
 ﻿#
 -----
-# Software System Design
+# Software Design Document
 # For
 # Picross Image Puzzle Generator 
 
@@ -67,9 +67,10 @@
 ###1. Introduction
 **Purpose**
 
+The purpose of the Software Design Document is to discuss and describe the implementation of the Picross Image Puzzle Generator as specified in the Software Requirements Document. The Picross Image Puzzle Generator is designed to allow the the user to import puzzles, scan or upload images and converts them to puzzles, exports puzzles, and provides hints to solve puzzles.
 
 
-#
+
 **Product Scope**
 
 
