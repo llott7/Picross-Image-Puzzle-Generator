@@ -117,10 +117,18 @@ The puzzle creation feature is something that we're pushing really hard. Enablin
 
 
 -----
-###3. Sub-systems architecture**
+###3. Sub-systems architecture
+**3.1 Overview**
 
+**3.2 Scanning/Importing**
 
+**3.3 Solver**
 
+*3.3.1 Help System*
+
+*3.3.2 System Solve*
+
+**3.4 Puzzle Creation**
 
 -----
 ###4. Rational for each architectural choice                                                       
