@@ -171,9 +171,10 @@ The Creation component is what enables the user to create or modify their own pe
 
 -----
 ###8. Work-assignment view
-    
-	
-	
+Our assignemnts are:
+* User Interface Design: Shaikha Al-Mashaykhi
+* Front-End Development: Lance Lott
+* API integration: Zackery Lavalais	
 	
 ----
 ###9. Element catalog
