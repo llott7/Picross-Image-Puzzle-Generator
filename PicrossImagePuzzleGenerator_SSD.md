@@ -24,39 +24,42 @@
 -----
 ### Table of Contents
 1. Introduction                                                           
-	* Purpose	                                                                                                                              
+    * Purpose	 
+    * Intended Audience
     * Product Scope                                                       
     * References                                        
-    * Overview	
+    * Design Summary
 2. Main system architecture (Logical view)                                                    
-    *
-    *
-    *	
+    * Overview
+    * Scanning/Importing
+    * Solver
+	- Help System
+	- System Solve
+    * Puzzle Creation
 3. Sub-systems architecture
-    *
-	*
-	*
+    * Overview
+    * Scanning/Importing
+    * Solver
+	- Help System
+	- System Solve
+    * Puzzle Creation
 4. Rational for each architectural choice  
     *
 	*
 	*
 5. Development view
-    *
-	*
-	*
+ 
 6. Physical view
-    *
-	*
-	*
+
 7. Database view
+
 8. Work-assignment view
     *
-	*
-	*
+    *
+    *
 9. Element catalog
     *
-	*
-	*
+    *
 10. User interfaces
     * User Interface Description
 	* User Interface Design
