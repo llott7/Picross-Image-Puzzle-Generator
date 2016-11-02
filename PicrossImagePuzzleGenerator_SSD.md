@@ -154,8 +154,9 @@ This feature is the exact opposite of the help feature in that instead of aiding
 
 ----
 ###10. User interfaces
-    ** User Interface Description **
+
+    **User Interface Description**
 	
-	** User Interface Design **
+	**User Interface Design**
 	
-	[![Picture1.png](https://s15.postimg.org/tliwh1lor/Picture1.png)](https://postimg.org/image/5hs4sr37r/)
+	![Picture1](https://s15.postimg.org/tliwh1lor/Picture1.png)
