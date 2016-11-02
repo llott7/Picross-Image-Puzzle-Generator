@@ -19,13 +19,16 @@
 
 class Puzzle {
 public:
-    Puzzle();
+    Puzzle(int horizSize=0, int vertSize=0);
     Puzzle(const Puzzle& orig);
     virtual ~Puzzle();
-    std::vector<std::vector<int> > grid;
-    std::vector<std::vector<Clue> > rowClues;
-    std::vector<std::vector<Clue> > colClues;
+    std::vector<std::vector<int> > grid;        // The solution grid, initially empty
+    std::vector<std::vector<Clue> > rowClues;   // The set of Clue objects for the rows
+    std::vector<std::vector<Clue> > colClues;   // The set of Clue objects for the columns
+    int horizSize;  // Horizontal dimension of the puzzle
+    int vertSize;   // Vertical dimension of the puzzle
 private:
+    
 };
 
 #endif /* PUZZLE_H */

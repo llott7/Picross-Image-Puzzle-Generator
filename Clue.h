@@ -19,15 +19,15 @@ class Clue {
 public:
     Clue(int size=0);
     virtual ~Clue();
-    int upperSpan;
-    int lowerSpan;
-    int upperLimit;
-    int lowerLimit;
-    std::vector<int> answers;
-    int getSize() const;
-    bool solved;
+    int upperSpan;              // For solving, initially 0
+    int lowerSpan;              // For solving, initially 0
+    int upperLimit;             // For solving, initially 0
+    int lowerLimit;             // For solving, initially 0
+    std::vector<int> answers;   // For solving, initially empty
+    int getSize() const;        // Returns the value of the clue
+    bool isSolved;              // True if clue is solved
 private:
-    int size;
+    int size;                   // Value of the clue
 };
 
 #endif /* CLUE_H */
