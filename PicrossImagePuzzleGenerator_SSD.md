@@ -146,6 +146,8 @@ The Solver component has the ability to outright solve a desired puzzle for a us
 
 **3.4 Puzzle Creation**
 
+The Creation component is what enables the user to create or modify their own personal Picross puzzles. With the help of the import component, the user can select a file and upload it into the program and the Creation component will then allow the user to modify the uploaded puzzle and creat something that's uniquely their own. As long as it meets the rule of one unique solution, the user can do whatever they want to the puzzle that they've uploaded. Also available within this component is the ability to just create a puzzle from scratch. This is where the user is prompted to input the parameters of the puzzle they want to create. (For example, the user input that they want to make a 5x5 Picross puzzle) Again, the puzzle that's created in this component must meet standard Picross rules to be considered legitimate. From here, the user can then save the puzzle that they've created to their device, or input it into the solver.
+
 -----
 ###4. Rational for each architectural choice                                                       
 
