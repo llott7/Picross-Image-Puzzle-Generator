@@ -163,7 +163,7 @@ The Creation component is what enables the user to create or modify their own pe
 
 
 -----
-###8. Work-assignment view
+###7. Work-assignment view
 Our assignemnts are:
 * User Interface Design: Shaikha Al-Mashaykhi
 * Front-End Development: Lance Lott
@@ -174,11 +174,11 @@ The UI design is mostly complete for the most part and is being handled by Shaik
 The program logic development is currently being designed by Lance as his primary skills, experience, and main interest in the program drove him to want to hard code and develop this part of the program. 
 	
 ----
-###9. Element catalog
+###8. Element catalog
 
 
 ----
-###10. User interfaces
+###9. User interfaces
 
 **User Interface Description**
 
