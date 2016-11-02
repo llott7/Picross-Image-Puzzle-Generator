@@ -154,9 +154,14 @@ This feature is the exact opposite of the help feature in that instead of aiding
 
 ----
 ###10. User interfaces
-
-    **User Interface Description**
-	
-	**User Interface Design**
+#
+    - User Interface Description
+		The UI for the Picross Image Puzzle Generator is designed to be easy to use.
+		When the users start the Picross Image Puzzle Generator, they will see the title and the main state view. The main state view will display the title and the main menu of the Picross Image Puzzle Generator.
+		The main menu includes Scan, Create, Import, and about. Each option in the main menu is connected to a state of the same name that handles all the evenets and actions related to that option.
+		When the users click on the Scan option, the current state will be changed from Main State to Scan State. In the scan state, the user will be able to take an image and convert it to a puzzle by clicking on Scan button, 
+		they will be able to browse an existed image in their PC by clicking on the open button, they can go back to the main menu by clicking the back button.
+#	
+	- User Interface Design
 	
 	![Picture1](https://s15.postimg.org/tliwh1lor/Picture1.png)
