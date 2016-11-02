@@ -205,4 +205,4 @@ In the About view: This view will display a brief summary about the Picross Imag
 
 **User Interface Design**
 	
-![Picture1](https://s15.postimg.org/tliwh1lor/Picture1.png)
+![Picture3](https://s13.postimg.org/nff0szutz/Picture3.png)
