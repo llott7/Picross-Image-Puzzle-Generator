@@ -83,7 +83,7 @@ The Software Design Document is meant to give the reader a more streamlined over
   - OpenCV - Open Source Computer Vision Library: http://opencv.org/about.html
  
 
-**Overview**
+**Design Summary**
 
 Our main focus when conceiving this program was to craft something that was both unique and interesting to us as developers. When you're making a program, it's all about what that program can do and what features it has and this is where we set ourselves apart from everyone else. The ability to scan a Picross puzzle and then solve or have it solved (entirely the choice of the user) is something that's unprecedented and shouldn't be taken lightly. This document is going to walk you through all aspects of our design. From the user interface to the concepts related to every one of our program's features.
  
@@ -91,14 +91,23 @@ Our project is built on an object-oriented approach with plenty of room to add a
 
 -----
 ###2. Main system architecture
+**2.1 Overview**
 
+Picross Image Puzzle Generator is a program that's entirely meant to be used in conjunction with the game Picross. The program is meant to be simple and easy to use for anyone that wants to pick it up no matter if that person is a child, a teenager, etc. Any fan of Picross should be able to use this program with no hassle and should find every one of our features simple to use as well. The user can scan a Picross puzzle into the generator and from there they can use the interface to navigate to different features. They can solve the puzzle or, if they're stuck on a puzzle, have the generator solve the puzzle for them and/or give them hints and tips to help them complete it on their own. Users also have the ability to think of and create their own puzzles, in which the generator will check to see if the puzzle that the user has made is actually a valid puzzle that meets standard Picross parameters as well as the puzzle size constraints we've set within the program. From here, we allow the user to save the puzzle to their computer for their own personal use and reference.
 
+**2.2 Scanning/Importing**
 
+Any user of the Picross Image Puzzle Generator (PIPG) has the option to scan and import a puzzle into the generator for their own use. When the puzzle is scanned in, the user has the ability to modify it and create their own unique puzzle from an already existing puzzle or go straight to the solver and make an attempt to solve it there with the optional help of the system.
 
+**2.3 Solver**
 
+This is the main feature that the program offers and it's most important. From here, the user is allowed to take a puzzle that they've created, modified, or scanned in and solve it. The solver also gives the user access to several features that are only present within the solver screen. From this screen, the user can then ask the system for help with the hint system or have the system fully complete the the puzzle for them and then view the completed puzzle and see where and how they were stuck. 
 
+*2.3.1 Help System*
 
+*2.3.2 System Solve*
 
+**2.4 Puzzle Creation**
 
 -----
 ###3. Sub-systems architecture**
