@@ -120,9 +120,21 @@ The puzzle creation feature is something that we're pushing really hard. Enablin
 ###3. Sub-systems architecture
 **3.1 Overview**
 
+Designing this program in an object-oriented style was imperative because there are tons of moving parts within and all have to act when we need them to and no time else. By using the object-oriented approach, it allowed us to create these moving parts sequentially and made sure they all fit together like a puzzle, but worked together like a well-oiled and efficient machine.
+
+The main part of our program is the actual Puzzle Solver part. It's what the entire program is based on and requires an extreme amount of checking and logic. It has to be accurate, consistent, and efficient or else the entire program as a whole will fail. It's responsible for checking to see if the puzzles are legitimate, being able to give the user hints and tips if they need them, and actually solving the puzzle if the user requests it to. 
+
+The importing and scanning parts are responsible for allowing the users to scan in a desired image of a puzzle and view it in our program. It also allows the user to modify the puzzle that they've scanned or take it to the solver which they can then use to solve the puzzle if they so desire. 
+
+The puzzle creation part requests that the user inputs a size for which to develop their puzzle. After this, it checks to see if the size is within our designated parameters and allows the user to proceed with making their puzzle. Once they're done and have created what they feel is a puzzle that they're happy with, they can check to see if it's a legitimate puzzle or if they'll need to revise it. Remember that for a Picross puzzle to be legitimate, it can only have one unique solution. After they've successfully passed the second check, they're allowed to take the puzzle that they've made and save it to their computer for future usage.
+
 **3.2 Scanning/Importing**
 
+Scanning is dealt with in the importing component. It takes a puzzle that the user has selected to import from their device and inputs it into the program. From there, the user is allowed to traverse throughout the UI and find whatever they want to do with the uploaded puzzle (modify, solve, upload another). The Solver has complete access to the file once the user has uploaded it into the program and the user can then proceed to solve or get help with the selected puzzle. 
+
 **3.3 Solver**
+
+The Solver component controls every aspect of how we solve and help users to solve puzzles. Once the user scans in a file from the import component, the solver component takes in the uploaded file if the user wants to solve the puzzle and brings it into the solver screen. From there, the user can then solve the puzzle or get helpful hints on how to solve the puzzle thanks to the helper that's built into the solver component. This helper will display tips in the form of "You should try looking at row/colomun #..." or "Have you tried looking at...?" to ensure that the user can simply understand what it's telling them to do as well as gain an understanding as to where they went wrong. The user can also use the check feature which is also present within the solver component to see if what they're doing in the puzzle solver is correct and that they're on the right track to correctly completing the puzzle. If what the user has input is incorrect, the checker will tell the user that they should fix or adjust something before continuing on because their current puzzle isn't correct. 
 
 *3.3.1 Help System*
 
@@ -166,23 +178,8 @@ The puzzle creation feature is something that we're pushing really hard. Enablin
 
 **User Interface Description**
 
-The UI for the Picross Image Puzzle Generator is designed to be easy to use. 
-When the users start the Picross Image Puzzle Generator(PIPG) game, they will see the main view which displays the title and the main menu of the PIPG game.
-The main menu includes the following options: Scan, Create, Import, and about. When the users click on the Scan option, the current view will be changed from the main view to Scan view. 
-
-In the scan view: the user will be able to browse an existed image in their PC by clicking on the open button. Where the image will be converted to a puzzle and it will be go through a system check where the
-PIPG check system checks if the puzzle has a unique solution, the size is within the range provided. After passing the check system, the user can export the puzzle or he/she can click on (solve) button which will take them to the Solve view.
-The users can also go back to the main view by clicking the back button.
-
-In the Create view: The user will be asked to enter a size of the puzzle he/she wants in pixels. Then an empty grid of that size will be displayed with extra colums and rows which will allow the use to enter the numbers of their puzzle.
-The create view provides the (check) feature for the users to help them check if their puzzle is unique or not. The user is also given the option of exporting their puzzle or to go to the solve view to solve the puzzle they created.
-The users can also go back to the main view by clicking the back button.
-
-In the Solve view: This view will be accessed from the Scan, create and import views. Here, the user can solve the puzzle he/she got from an image they upload it, the puzzle they created, or the puzzle the imported.
-The user can use the two features provided. If the user does not know what the next step is the (give me hint) feature will provide hints that help the user be on the right track of the game. However, if the user is looking for a solution, the  (solve it for me) feature will  provide the solution.
-
-The the Import view: When the user click on the the Import option in the main menu, an open file window will pop up. This feature allows the user to import existed picross puzzle type files. Then it will take the user to the Solve view directly to solve the puzzle.
-
+The UI for the Picross Image Puzzle Generator is designed to be easy to use. When the users start the Picross Image Puzzle Generator, they will see the title and the main state view. The main state view will display the title and the main menu of the Picross Image Puzzle Generator. The main menu includes Scan, Create, Import, and about. Each option in the main menu is connected to a state of the same name that handles all the evenets and actions related to that option. When the users click on the Scan option, the current state will be changed from Main State to Scan State. In the scan state, the user will be able to take an image and convert it to a puzzle by clicking on Scan button, 
+they will be able to browse an existed image in their PC by clicking on the open button, they can go back to the main menu by clicking the back button.
 
 **User Interface Design**
 	
