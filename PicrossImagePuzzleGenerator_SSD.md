@@ -162,13 +162,6 @@ The Creation component is what enables the user to create or modify their own pe
 
 
 
-
------
-###7. Database view
-
-
-
-
 -----
 ###8. Work-assignment view
 Our assignemnts are:
