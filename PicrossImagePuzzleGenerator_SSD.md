@@ -52,10 +52,6 @@
 6. User interfaces
     * User Interface Description
     * User Interface Design
-7. Element catalog
-    *
-    *
-	
 	
 -----
 ###1. Introduction
@@ -210,4 +206,4 @@ In the About view: This view will display a brief summary about the Picross Imag
 
 
 ----
-###7. Element catalog
+
