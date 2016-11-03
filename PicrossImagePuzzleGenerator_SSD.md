@@ -98,11 +98,11 @@ Any user of the Picross Image Puzzle Generator (PIPG) has the option to scan and
 
 This is the main feature that the program offers and its the most important. From here, the user is allowed to take a puzzle that they've created, modified, or scanned in and solve it. The solver also gives the user access to several features that are only present within the solver screen. From this screen, the user can then ask the system for help with the hint system or have the system fully complete the the puzzle for them and then view the completed puzzle and see where and how they were stuck. 
 
-	**Help System**
-	With this system, the user has the opportunity to take any kind of legitimate puzzle, whether it be one that they've created, found, are currently stuck on, etc., and solve it with the aid of the system. The system gives the user tips or hints on how to solve the puzzle in the manner of "Have you tried looking at...?" or "You should focus on row/column #..." in an attempt to get the user set on the right track to solve a puzzle that has been giving them trouble without directly solving it for them.
+- **Help System**
+With this system, the user has the opportunity to take any kind of legitimate puzzle, whether it be one that they've created, found, are currently stuck on, etc., and solve it with the aid of the system. The system gives the user tips or hints on how to solve the puzzle in the manner of "Have you tried looking at...?" or "You should focus on row/column #..." in an attempt to get the user set on the right track to solve a puzzle that has been giving them trouble without directly solving it for them.
 
-	**System Solve**
-	This feature is the exact opposite of the help feature in that instead of aiding the user with tips and hints, it'll just outright solve the puzzle for them. With this, the user can see how they were wrong in their predictions and improve their Picross skill by looking at realtime examples of any kind of legitimate puzzle they want to create or scan, no matter the difficulty. 
+- **System Solve**
+This feature is the exact opposite of the help feature in that instead of aiding the user with tips and hints, it'll just outright solve the puzzle for them. With this, the user can see how they were wrong in their predictions and improve their Picross skill by looking at realtime examples of any kind of legitimate puzzle they want to create or scan, no matter the difficulty. 
 
 **Puzzle Creation**
 
@@ -129,11 +129,11 @@ Scanning is dealt with in the importing component. It takes a puzzle that the us
 
 The Solver component controls every aspect of how we solve and help users to solve puzzles. Once the user scans in a file from the import component, the solver component takes in the uploaded file if the user wants to solve the puzzle and brings it into the solver screen. From there, the user can then solve the puzzle or get helpful hints on how to solve the puzzle thanks to the helper that's built into the solver component. This helper will display tips in the form of "You should try looking at row/colomun #..." or "Have you tried looking at...?" to ensure that the user can simply understand what it's telling them to do as well as gain an understanding as to where they went wrong. The user can also use the check feature which is also present within the solver component to see if what they're doing in the puzzle solver is correct and that they're on the right track to correctly completing the puzzle. If what the user has input is incorrect, the checker will tell the user that they should fix or adjust something before continuing on because their current puzzle isn't correct. 
 
-	**Help System**
-	The Solver component gives the user the opportunity to ask for a help or a hint on a desired puzzle that they've uploaded. If the user asks the system for assistance, they're given an on-screen hint in the form of a sentence detailing what their next best move should be. Also, the user can check the puzzle to see if what they have entered already is correct or incorrect. Once they do this, they're sent back to the Solver component to proceed with their puzzle.
+- **Help System**
+The Solver component gives the user the opportunity to ask for a help or a hint on a desired puzzle that they've uploaded. If the user asks the system for assistance, they're given an on-screen hint in the form of a sentence detailing what their next best move should be. Also, the user can check the puzzle to see if what they have entered already is correct or incorrect. Once they do this, they're sent back to the Solver component to proceed with their puzzle.
 
-	**3.3.2 System Solve**
-	The Solver component has the ability to outright solve a desired puzzle for a user. For instance, if the user is stuck and doesn't foresee themselves finishing a puzzle or they just want to know what the solution to a really difficult puzzle is, they can opt into having the system solver within the solver component do it for them and return the resulting solution. The Solver component then displays this solution for the user to see and save.
+- **System Solve**
+The Solver component has the ability to outright solve a desired puzzle for a user. For instance, if the user is stuck and doesn't foresee themselves finishing a puzzle or they just want to know what the solution to a really difficult puzzle is, they can opt into having the system solver within the solver component do it for them and return the resulting solution. The Solver component then displays this solution for the user to see and save.
 
 **Puzzle Creation**
 
