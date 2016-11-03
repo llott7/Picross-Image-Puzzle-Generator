@@ -105,11 +105,11 @@ This is the main feature that the program offers and its the most important. Fro
 
 - **Help System**
 
-With this system, the user has the opportunity to take any kind of legitimate puzzle, whether it be one that they've created, found, are currently stuck on, etc., and solve it with the aid of the system. The system gives the user tips or hints on how to solve the puzzle in the manner of "Have you tried looking at...?" or "You should focus on row/column #..." in an attempt to get the user set on the right track to solve a puzzle that has been giving them trouble without directly solving it for them.
+	With this system, the user has the opportunity to take any kind of legitimate puzzle, whether it be one that they've created, found, are currently stuck on, etc., and solve it with the aid of the system. The system gives the user tips or hints on how to solve the puzzle in the manner of "Have you tried looking at...?" or "You should focus on row/column #..." in an attempt to get the user set on the right track to solve a puzzle that has been giving them trouble without directly solving it for them.
 
 - **System Solve**
 
-This feature is the exact opposite of the help feature in that instead of aiding the user with tips and hints, it'll just outright solve the puzzle for them. With this, the user can see how they were wrong in their predictions and improve their Picross skill by looking at realtime examples of any kind of legitimate puzzle they want to create or scan, no matter the difficulty. 
+	This feature is the exact opposite of the help feature in that instead of aiding the user with tips and hints, it'll just outright solve the puzzle for them. With this, the user can see how they were wrong in their predictions and improve their Picross skill by looking at realtime examples of any kind of legitimate puzzle they want to create or scan, no matter the difficulty. 
 
 **Puzzle Creation**
 
@@ -138,7 +138,7 @@ The Solver component controls every aspect of how we solve and help users to sol
 
 - **Help System**
 
-The Solver component gives the user the opportunity to ask for a help or a hint on a desired puzzle that they've uploaded. If the user asks the system for assistance, they're given an on-screen hint in the form of a sentence detailing what their next best move should be. Also, the user can check the puzzle to see if what they have entered already is correct or incorrect. Once they do this, they're sent back to the Solver component to proceed with their puzzle.
+	The Solver component gives the user the opportunity to ask for a help or a hint on a desired puzzle that they've uploaded. If the user asks the system for assistance, they're given an on-screen hint in the form of a sentence detailing what their next best move should be. Also, the user can check the puzzle to see if what they have entered already is correct or incorrect. Once they do this, they're sent back to the Solver component to proceed with their puzzle.
 
 - **System Solve**
 
