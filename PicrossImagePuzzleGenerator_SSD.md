@@ -44,26 +44,18 @@
 	- System Solve
     * Puzzle Creation
 4. Rational for each architectural choice  
-    *
-	*
-	*
-5. Development view
- 
-6. Physical view
 
-7. Database view
-
-8. Work-assignment view
-    *
-    *
-    *
-9. Element catalog
-    *
-    *
-10. User interfaces
+5. Application Views
+    * Development view
+    * Physical view
+    * Database view
+    * Work-assignment view
+6. User interfaces
     * User Interface Description
-	* User Interface Design
-
+    * User Interface Design
+7. Element catalog
+    *
+    *
 	
 	
 -----
@@ -94,34 +86,32 @@ Our project is built on an object-oriented approach with plenty of room to add a
 
 -----
 ###2. Main system architecture
-**2.1 Overview**
+**Overview**
 
 Picross Image Puzzle Generator is a program that's entirely meant to be used in conjunction with the game Picross. The program is meant to be simple and easy to use for anyone that wants to pick it up no matter if that person is a child, a teenager, etc. Any fan of Picross should be able to use this program with no hassle and should find every one of our features simple to use as well. The user can scan a Picross puzzle into the generator and from there they can use the interface to navigate to different features. They can solve the puzzle or, if they're stuck on a puzzle, have the generator solve the puzzle for them and/or give them hints and tips to help them complete it on their own. Users also have the ability to think of and create their own puzzles, in which the generator will check to see if the puzzle that the user has made is actually a valid puzzle that meets standard Picross parameters as well as the puzzle size constraints we've set within the program. From here, we allow the user to save the puzzle to their computer for their own personal use and reference.
 
-**2.2 Scanning/Importing**
+**Scanning/Importing**
 
 Any user of the Picross Image Puzzle Generator (PIPG) has the option to scan and import a puzzle into the generator for their own use. Scanning is a key feature of the PIPG and because of we're going to limit the size of the puzzle that can be scanned in. When the puzzle is scanned in and verified to be within the threshold of the size limit, the user has the ability to modify it and create their own unique puzzle from an already existing puzzle or go straight to the solver and make an attempt to solve it there with the optional help of the system. If the user is modifying a puzzle, they must also pass a system check to ensure that the puzzle that they've newly created via modification is, in fact, a legitimate Picross puzzle.
 
-**2.3 Solver**
+**Solver**
 
 This is the main feature that the program offers and its most important. From here, the user is allowed to take a puzzle that they've created, modified, or scanned in and solve it. The solver also gives the user access to several features that are only present within the solver screen. From this screen, the user can then ask the system for help with the hint system or have the system fully complete the the puzzle for them and then view the completed puzzle and see where and how they were stuck. 
 
-*2.3.1 Help System*
+	**Help System**
+	With this system, the user has the opportunity to take any kind of legitimate puzzle, whether it be one that they've created, found, are currently stuck on, etc., and solve it with the aid of the system. The system gives the user tips or hints on how to solve the puzzle in the manner of "Have you tried looking at...?" or "You should focus on row/column #..." in an attempt to get the user set on the right track to solve a puzzle that has been giving them trouble without directly solving it for them.
 
-With this system, the user has the opportunity to take any kind of legitimate puzzle, whether it be one that they've created, found, are currently stuck on, etc., and solve it with the aid of the system. The system gives the user tips or hints on how to solve the puzzle in the manner of "Have you tried looking at...?" or "You should focus on row/column #..." in an attempt to get the user set on the right track to solve a puzzle that has been giving them trouble without directly solving it for them.
+	**System Solve**
+	This feature is the exact opposite of the help feature in that instead of aiding the user with tips and hints, it'll just outright solve the puzzle for them. With this, the user can see how they were wrong in their predictions and improve their Picross skill by looking at realtime examples of any kind of legitimate puzzle they want to create or scan, no matter the difficulty. 
 
-*2.3.2 System Solve*
-
-This feature is the exact opposite of the help feature in that instead of aiding the user with tips and hints, it'll just outright solve the puzzle for them. With this, the user can see how they were wrong in their predictions and improve their Picross skill by looking at realtime examples of any kind of legitimate puzzle they want to create or scan, no matter the difficulty. 
-
-**2.4 Puzzle Creation**
+**Puzzle Creation**
 
 The puzzle creation feature is something that we're pushing really hard. Enabling the user to not only scan in an existing puzzle and form and shape it into a new puzzle is something really innovative and unique. The most important part of this feature, though, is the ability to craft your own puzzle from scratch. The only limitation we're putting forth is on the size, which is currently being determined. Aside from that, a user can create their own puzzle in any way they feel or see fit with our system. Once they're done making it, the system then verifies that it passes all qualifications to be considered a legitimate Picross puzzle and then prompts the user to save it to their computer. 
 
 
 -----
 ###3. Sub-systems architecture
-**3.1 Overview**
+**Overview**
 
 Designing this program in an object-oriented style was imperative because there are tons of moving parts within and all have to act when we need them to and no time else. By using the object-oriented approach, it allowed us to create these moving parts sequentially and made sure they all fit together like a puzzle, but worked together like a well-oiled and efficient machine.
 
@@ -131,23 +121,21 @@ The importing and scanning parts are responsible for allowing the users to scan 
 
 The puzzle creation part requests that the user inputs a size for which to develop their puzzle. After this, it checks to see if the size is within our designated parameters and allows the user to proceed with making their puzzle. Once they're done and have created what they feel is a puzzle that they're happy with, they can check to see if it's a legitimate puzzle or if they'll need to revise it. Remember that for a Picross puzzle to be legitimate, it can only have one unique solution. After they've successfully passed the second check, they're allowed to take the puzzle that they've made and save it to their computer for future usage.
 
-**3.2 Scanning/Importing**
+**Scanning/Importing**
 
 Scanning is dealt with in the importing component. It takes a puzzle that the user has selected to import from their device and inputs it into the program. From there, the user is allowed to traverse throughout the UI and find whatever they want to do with the uploaded puzzle (modify, solve, upload another). The Solver has complete access to the file once the user has uploaded it into the program and the user can then proceed to solve or get help with the selected puzzle. 
 
-**3.3 Solver**
+**Solver**
 
 The Solver component controls every aspect of how we solve and help users to solve puzzles. Once the user scans in a file from the import component, the solver component takes in the uploaded file if the user wants to solve the puzzle and brings it into the solver screen. From there, the user can then solve the puzzle or get helpful hints on how to solve the puzzle thanks to the helper that's built into the solver component. This helper will display tips in the form of "You should try looking at row/colomun #..." or "Have you tried looking at...?" to ensure that the user can simply understand what it's telling them to do as well as gain an understanding as to where they went wrong. The user can also use the check feature which is also present within the solver component to see if what they're doing in the puzzle solver is correct and that they're on the right track to correctly completing the puzzle. If what the user has input is incorrect, the checker will tell the user that they should fix or adjust something before continuing on because their current puzzle isn't correct. 
 
-*3.3.1 Help System*
+	**Help System**
+	The Solver component gives the user the opportunity to ask for a help or a hint on a desired puzzle that they've uploaded. If the user asks the system for assistance, they're given an on-screen hint in the form of a sentence detailing what their next best move should be. Also, the user can check the puzzle to see if what they have entered already is correct or incorrect. Once they do this, they're sent back to the Solver component to proceed with their puzzle.
 
-The Solver component gives the user the opportunity to ask for a help or a hint on a desired puzzle that they've uploaded. If the user asks the system for assistance, they're given an on-screen hint in the form of a sentence detailing what their next best move should be. Also, the user can check the puzzle to see if what they have entered already is correct or incorrect. Once they do this, they're sent back to the Solver component to proceed with their puzzle.
+	**3.3.2 System Solve**
+	The Solver component has the ability to outright solve a desired puzzle for a user. For instance, if the user is stuck and doesn't foresee themselves finishing a puzzle or they just want to know what the solution to a really difficult puzzle is, they can opt into having the system solver within the solver component do it for them and return the resulting solution. The Solver component then displays this solution for the user to see and save.
 
-*3.3.2 System Solve*
-
-The Solver component has the ability to outright solve a desired puzzle for a user. For instance, if the user is stuck and doesn't foresee themselves finishing a puzzle or they just want to know what the solution to a really difficult puzzle is, they can opt into having the system solver within the solver component do it for them and return the resulting solution. The Solver component then displays this solution for the user to see and save.
-
-**3.4 Puzzle Creation**
+**Puzzle Creation**
 
 The Creation component is what enables the user to create or modify their own personal Picross puzzles. With the help of the import component, the user can select a file and upload it into the program and the Creation component will then allow the user to modify the uploaded puzzle and creat something that's uniquely their own. As long as it meets the rule of one unique solution, the user can do whatever they want to the puzzle that they've uploaded. Also available within this component is the ability to just create a puzzle from scratch. This is where the user is prompted to input the parameters of the puzzle they want to create. (For example, the user input that they want to make a 5x5 Picross puzzle) Again, the puzzle that's created in this component must meet standard Picross rules to be considered legitimate. From here, the user can then save the puzzle that they've created to their device, or input it into the solver.
 
@@ -157,31 +145,27 @@ The Creation component is what enables the user to create or modify their own pe
 	
 	
 -----
-###5. Development view                                       
+###5. Application Views
+
+**Development view**
 
 
------
-###6. Physical view                                                     
+**Physical view**
 
-
-
------
-###7. Work-assignment view
-Our assignemnts are:
+** Work-assignment view**
+Our assignemnts are as follow:
 * User Interface Design: Shaikha Al-Mashaykhi
 * Front-End Development: Lance Lott
 * API integration: Zackery Lavalais	
 
-The UI design is mostly complete for the most part and is being handled by Shaikha. She has an interest in UI design and volunteered for this particular role almost instantly. We're using SFML to develop the UI and after working with it for a while she's gotten comfortable with it and it's almost at completion.
+The UI design is mostly complete for the most part and is being handled by Shaikha. She has an interest in UI design and volunteered for this particular role almost instantly. We're using SFML library to develop the UI for the Picross Image Puzzle Generator.
 
-The program logic development is currently being designed by Lance as his primary skills, experience, and main interest in the program drove him to want to hard code and develop this part of the program. 
+The program logic development is currently being designed by Lance as his primary skills, experience, and main interest in the program drove him to want to hard code and develop this part of the program.
+
+The API integration, openCV are what Zachery is working on as well as writing most of the documentations.
 	
 ----
-###8. Element catalog
-
-
-----
-###9. User interfaces
+###6. User interfaces
 
 The following sections provide a description of the User Interface and an example diagram of the interface for the Picross Image Puzzle Generator.
 
@@ -211,3 +195,7 @@ In the About view: This view will display a brief summary about the Picross Imag
 **User Interface Design**
 	
 ![Picture3](https://s13.postimg.org/nff0szutz/Picture3.png)
+
+
+----
+###7. Element catalog
