@@ -167,7 +167,7 @@ The Creation component is what enables the user to create or modify their own pe
 
 Our assignemnts are as follow:
 * User Interface Design: Shaikha Al-Mashaykhi
-* Front-End Development: Lance Lott
+* Program/Game Logic: Lance Lott
 * API integration: Zackery Lavalais	
 
 The UI design is mostly complete for the most part and is being handled by Shaikha. She has an interest in UI design and volunteered for this particular role almost instantly. We're using SFML library to develop the UI for the Picross Image Puzzle Generator.
