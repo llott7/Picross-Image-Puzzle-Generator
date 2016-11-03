@@ -142,7 +142,7 @@ The Solver component controls every aspect of how we solve and help users to sol
 
 - **System Solve**
 
-The Solver component has the ability to outright solve a desired puzzle for a user. For instance, if the user is stuck and doesn't foresee themselves finishing a puzzle or they just want to know what the solution to a really difficult puzzle is, they can opt into having the system solver within the solver component do it for them and return the resulting solution. The Solver component then displays this solution for the user to see and save.
+	The Solver component has the ability to outright solve a desired puzzle for a user. For instance, if the user is stuck and doesn't foresee themselves finishing a puzzle or they just want to know what the solution to a really difficult puzzle is, they can opt into having the system solver within the solver component do it for them and return the resulting solution. The Solver component then displays this solution for the user to see and save.
 
 **Puzzle Creation**
 
