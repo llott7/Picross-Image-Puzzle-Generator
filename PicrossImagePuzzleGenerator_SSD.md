@@ -45,9 +45,9 @@
 	- System Solve
     * Puzzle Creation
 5. Application Views
+    * Logical view
     * Development view
     * Physical view
-    * Database view
     * Work-assignment view
 6. User interfaces
     * User Interface Description
@@ -151,11 +151,17 @@ The Creation component is what enables the user to create or modify their own pe
 	
 -----
 ###5. Application Views
+**Logical View**
+
+![unnamed](https://s22.postimg.org/wdj2cicox/unnamed.png)
 
 **Development view**
 
+![unnamed_2](https://s14.postimg.org/4y185c8rl/unnamed_2.png)
 
 **Physical view**
+
+![unnamed_1](https://s14.postimg.org/aigx7dsf5/unnamed_1.png)
 
 **Work-assignment view**
 
