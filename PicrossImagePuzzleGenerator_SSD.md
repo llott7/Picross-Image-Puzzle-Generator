@@ -62,11 +62,11 @@
 ###1. Introduction
 **Purpose**
 
-The purpose of the Software Design Document is to discuss and describe the implementation of the Picross Image Puzzle Generator as specified in the Software Requirements Document. The Picross Image Puzzle Generator is designed to allow the the user to import puzzles, scan or upload images and converts them to puzzles, exports puzzles, and provides hints to solve puzzles.
+The purpose of the Software Design Document is to discuss and describe the implementation of the Picross Image Puzzle Generator(PIPG) as specified in the Software Requirements Document. The Picross Image Puzzle Generator is designed to allow the the user to upload images and converts them to puzzles, import puzzles, create and exports puzzles, provides hints to solve a puzzles, and solves puzzles.
 
 **Intended Audience**
 
-Unlike the SRS document, which was written on a much larger and understandable scope for a wider audience, this SSD is more for those that are directly involved in the program or will be in the future. Whether it's us as developers right now or for consultants and product distribution services that might end up viewing it in the future, we're providing a general summmary of our product and how ir works, why it works, and who is likely to use it. 
+Unlike the SRS document, which was written on a much larger and understandable scope for a wider audience, this SSD is more for those that are directly involved in the program or will be in the future. Whether it is us as developers right now or for consultants and product distribution services that might end up viewing it in the future, we're providing a general summmary of our product and how it works, why it works, and who is likely to use it. 
 
 **Product Scope**
 
@@ -80,7 +80,7 @@ The Software Design Document is meant to give the reader a more streamlined over
 
 **Design Summary**
 
-Our main focus when conceiving this program was to craft something that was both unique and interesting to us as developers. When you're making a program, it's all about what that program can do and what features it has and this is where we set ourselves apart from everyone else. The ability to scan a Picross puzzle and then solve or have it solved (entirely the choice of the user) is something that's unprecedented and shouldn't be taken lightly. This document is going to walk you through all aspects of our design. From the user interface to the concepts related to every one of our program's features.
+Our main focus when conceiving this program was to craft something that was both unique and interesting to us as developers. When you're making a program, it's all about what that program can do and what features it has and this is where we set ourselves apart from everyone else. The ability to import a Picross puzzle and then solve or have it solved (entirely the choice of the user) is something that is unprecedented and should not be taken lightly. This document is going to walk you through all aspects of our design. From the user interface to the concepts related to every one of our program's features.
  
 Our project is built on an object-oriented approach with plenty of room to add and develop in the future. Given our program is entirely standalone, we don't have to worry about servers or databases and that opens up a lot of future opportunities for implementation. Whether it be porting the program over to mobile or adding things to the base desktop application, the possibilites here are plentiful.
 
@@ -88,7 +88,7 @@ Our project is built on an object-oriented approach with plenty of room to add a
 ###2. Main system architecture
 **Overview**
 
-Picross Image Puzzle Generator is a program that's entirely meant to be used in conjunction with the game Picross. The program is meant to be simple and easy to use for anyone that wants to pick it up no matter if that person is a child, a teenager, etc. Any fan of Picross should be able to use this program with no hassle and should find every one of our features simple to use as well. The user can scan a Picross puzzle into the generator and from there they can use the interface to navigate to different features. They can solve the puzzle or, if they're stuck on a puzzle, have the generator solve the puzzle for them and/or give them hints and tips to help them complete it on their own. Users also have the ability to think of and create their own puzzles, in which the generator will check to see if the puzzle that the user has made is actually a valid puzzle that meets standard Picross parameters as well as the puzzle size constraints we've set within the program. From here, we allow the user to save the puzzle to their computer for their own personal use and reference.
+Picross Image Puzzle Generator is a program that's entirely meant to be used in conjunction with the game Picross. The program is meant to be simple and easy to use for anyone that wants to pick it up no matter if that person is a child, a teenager, etc. Any fan of Picross should be able to use this program with no hassle and should find every one of our features simple to use as well. The user can import a Picross puzzle into the generator and from there they can use the interface to navigate to different features. They can solve the puzzle or, if they're stuck on a puzzle, have the generator solve the puzzle for them and/or give them hints and tips to help them complete it on their own. Users also have the ability to think of and create their own puzzles, in which the generator will check to see if the puzzle that the user has made is actually a valid puzzle that meets standard Picross parameters as well as the puzzle size constraints we've set within the program. From here, we allow the user to save the puzzle to their computer for their own personal use and reference.
 
 **Scanning/Importing**
 
