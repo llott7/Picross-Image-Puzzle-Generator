@@ -92,11 +92,11 @@ Picross Image Puzzle Generator is a program that's entirely meant to be used in 
 
 **Scanning/Importing**
 
-Any user of the Picross Image Puzzle Generator (PIPG) has the option to scan and import a puzzle into the generator for their own use. Scanning is a key feature of the PIPG and because of we're going to limit the size of the puzzle that can be scanned in. When the puzzle is scanned in and verified to be within the threshold of the size limit, the user has the ability to modify it and create their own unique puzzle from an already existing puzzle or go straight to the solver and make an attempt to solve it there with the optional help of the system. If the user is modifying a puzzle, they must also pass a system check to ensure that the puzzle that they've newly created via modification is, in fact, a legitimate Picross puzzle.
+Any user of the Picross Image Puzzle Generator (PIPG) has the option to scan and import a puzzle into the generator for their own use. Scanning is a key feature of the PIPG which for now it allows the user to upload an image and convert it to a puzzle, and because of we're going to limit the size of the puzzle that can be scanned in. When the puzzle is scanned in and verified to be within the threshold of the size limit, the user has the ability to modify it and create their own unique puzzle from an already existing puzzle or go straight to the solver and make an attempt to solve it there with the optional help of the system. If the user is modifying a puzzle, they must also pass a system check to ensure that the puzzle that they've newly created via modification is, in fact, a legitimate Picross puzzle.
 
 **Solver**
 
-This is the main feature that the program offers and its most important. From here, the user is allowed to take a puzzle that they've created, modified, or scanned in and solve it. The solver also gives the user access to several features that are only present within the solver screen. From this screen, the user can then ask the system for help with the hint system or have the system fully complete the the puzzle for them and then view the completed puzzle and see where and how they were stuck. 
+This is the main feature that the program offers and its the most important. From here, the user is allowed to take a puzzle that they've created, modified, or scanned in and solve it. The solver also gives the user access to several features that are only present within the solver screen. From this screen, the user can then ask the system for help with the hint system or have the system fully complete the the puzzle for them and then view the completed puzzle and see where and how they were stuck. 
 
 	**Help System**
 	With this system, the user has the opportunity to take any kind of legitimate puzzle, whether it be one that they've created, found, are currently stuck on, etc., and solve it with the aid of the system. The system gives the user tips or hints on how to solve the puzzle in the manner of "Have you tried looking at...?" or "You should focus on row/column #..." in an attempt to get the user set on the right track to solve a puzzle that has been giving them trouble without directly solving it for them.
@@ -162,7 +162,7 @@ The UI design is mostly complete for the most part and is being handled by Shaik
 
 The program logic development is currently being designed by Lance as his primary skills, experience, and main interest in the program drove him to want to hard code and develop this part of the program.
 
-The API integration, openCV are what Zachery is working on as well as writing most of the documentations.
+The API integration, openCV are what Zachery is working on as well as writing most of the documentations. 
 	
 ----
 ###6. User interfaces
