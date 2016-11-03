@@ -31,20 +31,19 @@
     * Design Summary
 2. Main system architecture (Logical view)                                                    
     * Overview
+3. Sub-systems architecture
     * Scanning/Importing
     * Solver
 	- Help System
 	- System Solve
     * Puzzle Creation
-3. Sub-systems architecture
+4.  Rationales for each architectural choice  
     * Overview
     * Scanning/Importing
     * Solver
 	- Help System
 	- System Solve
     * Puzzle Creation
-4. Rational for each architectural choice  
-
 5. Application Views
     * Development view
     * Physical view
@@ -86,9 +85,15 @@ Our project is built on an object-oriented approach with plenty of room to add a
 
 -----
 ###2. Main system architecture
+
 **Overview**
 
 Picross Image Puzzle Generator is a program that's entirely meant to be used in conjunction with the game Picross. The program is meant to be simple and easy to use for anyone that wants to pick it up no matter if that person is a child, a teenager, etc. Any fan of Picross should be able to use this program with no hassle and should find every one of our features simple to use as well. The user can import a Picross puzzle into the generator and from there they can use the interface to navigate to different features. They can solve the puzzle or, if they're stuck on a puzzle, have the generator solve the puzzle for them and/or give them hints and tips to help them complete it on their own. Users also have the ability to think of and create their own puzzles, in which the generator will check to see if the puzzle that the user has made is actually a valid puzzle that meets standard Picross parameters as well as the puzzle size constraints we've set within the program. From here, we allow the user to save the puzzle to their computer for their own personal use and reference.
+
+
+
+-----
+###3. Sub-systems architecture
 
 **Scanning/Importing**
 
@@ -107,10 +112,9 @@ This feature is the exact opposite of the help feature in that instead of aiding
 **Puzzle Creation**
 
 The puzzle creation feature is something that we're pushing really hard. Enabling the user to not only scan in an existing puzzle and form and shape it into a new puzzle is something really innovative and unique. The most important part of this feature, though, is the ability to craft your own puzzle from scratch. The only limitation we're putting forth is on the size, which is currently being determined. Aside from that, a user can create their own puzzle in any way they feel or see fit with our system. Once they're done making it, the system then verifies that it passes all qualifications to be considered a legitimate Picross puzzle and then prompts the user to save it to their computer. 
-
-
 -----
-###3. Sub-systems architecture
+###4. Rational for each architectural choice
+
 **Overview**
 
 Designing this program in an object-oriented style was imperative because there are tons of moving parts within and all have to act when we need them to and no time else. By using the object-oriented approach, it allowed us to create these moving parts sequentially and made sure they all fit together like a puzzle, but worked together like a well-oiled and efficient machine.
@@ -138,10 +142,6 @@ The Solver component has the ability to outright solve a desired puzzle for a us
 **Puzzle Creation**
 
 The Creation component is what enables the user to create or modify their own personal Picross puzzles. With the help of the import component, the user can select a file and upload it into the program and the Creation component will then allow the user to modify the uploaded puzzle and creat something that's uniquely their own. As long as it meets the rule of one unique solution, the user can do whatever they want to the puzzle that they've uploaded. Also available within this component is the ability to just create a puzzle from scratch. This is where the user is prompted to input the parameters of the puzzle they want to create. (For example, the user input that they want to make a 5x5 Picross puzzle) Again, the puzzle that's created in this component must meet standard Picross rules to be considered legitimate. From here, the user can then save the puzzle that they've created to their device, or input it into the solver.
-
------
-###4. Rational for each architectural choice                                                       
-
 	
 	
 -----
@@ -152,7 +152,8 @@ The Creation component is what enables the user to create or modify their own pe
 
 **Physical view**
 
-** Work-assignment view**
+**Work-assignment view**
+
 Our assignemnts are as follow:
 * User Interface Design: Shaikha Al-Mashaykhi
 * Front-End Development: Lance Lott
