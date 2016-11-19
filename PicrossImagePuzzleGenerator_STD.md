@@ -1,6 +1,6 @@
 #
 -----
-# Software Design Document
+# Software Testing Document
 # For
 # Picross Image Puzzle Generator 
 
