@@ -53,7 +53,7 @@
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1| | run application  | The title screen and main menu is displayed   |   |   |
+|1|run application  | The title screen and main menu is displayed  |   |   |   |
 
 |Post-condition | 
 |---|
@@ -77,7 +77,7 @@
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1| |  click on Scan option | the view changes and Scan view is displayed  |   |   |
+|1| click on Scan option  | the view changes and Scan view is displayed|   |   |   |
 
 |Post-condition | 
 |---|
@@ -101,7 +101,7 @@
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1| |  click on open option button |   |   |   |
+|1| click on open option button |  |   |   |   |
 
 |Post-condition | 
 |---|
