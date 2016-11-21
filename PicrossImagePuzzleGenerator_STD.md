@@ -62,7 +62,7 @@
 
 #
 
-| Test Case #: 1 | Test Case Name: |
+| Test Case #: 1 | Test Case Name: Test the Scan option|
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
 | Designed By: | Design Date: |
@@ -72,20 +72,22 @@
 
 |Pre-conditions| 
 |---|
-|  |
+| the  application is running |
+| the main menu is displayed  |
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1| |   |   |   |   |
+|1| |  click on Scan option | the view changes and Scan view is displayed  |   |   |
 
 |Post-condition | 
 |---|
-|  |
+| the Scan view is displayed |
+| open, export, solve and back options are displayed |
 
 #
 
 
-| Test Case #: 2 | Test Case Name: |
+| Test Case #: 2 | Test Case Name: test open image feature in Scan view|
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
 | Designed By: | Design Date: |
@@ -95,11 +97,11 @@
 
 |Pre-conditions| 
 |---|
-|  |
+| the scan view is displayed with its menu |
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1| |   |   |   |   |
+|1| |  click on open option button |   |   |   |
 
 |Post-condition | 
 |---|
