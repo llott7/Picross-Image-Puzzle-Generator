@@ -28,7 +28,7 @@
 | Test Case #: 0 | Test Case Name: Application Startup|
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
-| Designed By: | Design Date: 11/20/2016 |
+| Designed By: PIPG Development team | Design Date: 11/20/2016 |
 | Executed By: | Execution Date: |
 | Short Description: test the application's startup|  |
 
@@ -51,7 +51,7 @@
 | Test Case #: 1 | Test Case Name: Test the Scan button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
-| Designed By: | Design Date: 11/20/2016 |
+| Designed By: PIPG Development team | Design Date: 11/20/2016 |
 | Executed By: | Execution Date: |
 | Short Description: test if the scan button works |  |
 
@@ -75,7 +75,7 @@
 | Test Case #: 2 | Test Case Name: test open button in the Scan view |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
-| Designed By: | Design Date: |
+| Designed By: PIPG Development team| Design Date: 11/21/2016|
 | Executed By: | Execution Date: |
 | Short Description:  test the functionality of opening an image file from|  |
 
@@ -99,7 +99,7 @@
 | Test Case #: 3 | Test Case Name: test the create button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
-| Designed By: | Design Date: |
+| Designed By: PIPG Development team | Design Date: 11/21/2016|
 | Executed By: | Execution Date: |
 | Short Description: test if the create button works|  |
 
@@ -125,7 +125,7 @@
 | Test Case #: 4 | Test Case Name: test the import button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
-| Designed By: | Design Date: |
+| Designed By: PIPG Development team | Design Date: 11/21/2016|
 | Executed By: | Execution Date: |
 | Short Description: test if the import button works|  |
 
@@ -149,7 +149,7 @@
 | Test Case #: 5 | Test Case Name: test the about button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem:  |
-| Designed By: | Design Date:11/21/2016 |
+| Designed By: PIPG Development team | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
 | Short Description: to test if the about button on the title and main menu view works |  |
 
@@ -174,7 +174,7 @@
 | Test Case #: 6 | Test Case Name: test the export button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu|
-| Designed By: | Design Date: 11/21/ 2016|
+| Designed By: PIPG Development team| Design Date: 11/21/ 2016|
 | Executed By: | Execution Date: |
 | Short Description: test if the application exports puzzle file|  |
 
@@ -203,7 +203,7 @@
 | Test Case #: 7 | Test Case Name:  test the solve button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
-| Designed By: | Design Date: 11/21/2016|
+| Designed By: PIPG Development team | Design Date: 11/21/2016|
 | Executed By: | Execution Date: |
 | Short Description: to test the solving option|  |
 
@@ -224,7 +224,7 @@
 | Test Case #: 8 | Test Case Name: Test Give me hint button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
-| Designed By: | Design Date:11/21/2016 |
+| Designed By: PIPG Development team | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
 | Short Description: Tests if the hint button works if clicked |  |
 
@@ -248,7 +248,7 @@
 | Test Case #: 9 | Test Case Name: Test Solve it for me button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
-| Designed By: | Design Date:11/21/2016 |
+| Designed By: PIPG Development team | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
 | Short Description: Tests if the hint button works if clicked |  |
 
@@ -271,7 +271,7 @@
 | Test Case #: 10 | Test Case Name: Test the Check button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
-| Designed By: | Design Date:11/21/2016 |
+| Designed By: PIPG Development team | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
 | Short Description: Tests to see if the Check buttons works properly |  |
 
@@ -297,7 +297,7 @@
 | Test Case #: 11 | Test Case Name: Testing the Back buttons |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
-| Designed By: | Design Date:11/21/2016 |
+| Designed By: PIPG Development team | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
 | Short Description: Testing to make sure that all the back buttons work within the parameters we've set and return to their respective screens |  |
 
@@ -323,7 +323,7 @@
 | Test Case #: 12 | Test Case Name: Testing Exit |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
-| Designed By: | Design Date:11/21/2016 |
+| Designed By: PIPG Development team | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
 | Short Description: The program should exit or close when the user prompts it to do so.  |  |
 
@@ -345,7 +345,7 @@
 | Test Case #: 13 | Test Case Name: test for correct input size|
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu|
-| Designed By: | Design Date:11/21/2016 |
+| Designed By: PIPG Development team | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
 | Short Description: testing to make sure that the size of a puzzle being created is within our set puzzle parameters|  |
 
