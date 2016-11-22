@@ -152,18 +152,19 @@
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
-| Short Description: |  Tests if the hint button works if clicked |
+| Short Description: Tests if the hint button works if clicked |  |
 
 
 |Pre-conditions| 
 |---|
 | The application is running |
-| The player is in a puzzle solver |
+| The player is in the puzzle solver screen |
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
 |1| Clicking the "Create" button | The system displys the creation window |   |   |   |
-|2| Clicking the "Give Me a Hint" button | The system offers the user a hint for their next move |   |   |   |
+|2| Clicking the "Solve" button | The system opens up to the solver window |   |   |   |
+|3| Clicking the "Give Me a Hint" button | The system offers the user a hint for their next move |   |   |   |
 
 |Post-condition | 
 |---|
@@ -172,30 +173,32 @@
 
 #
 
-| Test Case #: 6 | Test Case Name: |
+| Test Case #: 6 | Test Case Name: Test the Check Button |
 | --- | --- |
-| System: Picross Image Puzzle Game  | Subsystem: |
+| System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
-| Short Description: |  |
+| Short Description: Tests to see if the Check buttons works properly. |  |
 
 
 |Pre-conditions| 
 |---|
-| |
+| The application is running |
+| The player is in the create puzzle screen |
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1|  | |   |   |   |
+|1| Clicking the "Create" button | The system displays the creation window |   |   |   |
+|2| Clicking the "Check" button | The system displays checks whether the puzzle that's created is a valid and unique puzzle |   |   |   |
 
 |Post-condition | 
 |---|
-| |
+| A message appears for the user to either confirm validity or to tell them that the puzzle needs to be altered |
 
 
 #
 
-| Test Case #: 6 | Test Case Name: |
+| Test Case #: 7| Test Case Name: |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
 | Designed By: | Design Date:11/21/2016 |
