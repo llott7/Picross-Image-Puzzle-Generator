@@ -147,25 +147,27 @@
 
 #
 
-| Test Case #: 5 | Test Case Name: |
+| Test Case #: 5 | Test Case Name: Test Hint Button |
 | --- | --- |
-| System: Picross Image Puzzle Game  | Subsystem: |
+| System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
-| Short Description: |  |
+| Short Description: |  Tests if the hint button works if clicked |
 
 
 |Pre-conditions| 
 |---|
-| |
+| The application is running |
+| The player is in a puzzle solver |
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1|  | |   |   |   |
+|1| Clicking the "Create" button | The system displys the creation window |   |   |   |
+|2| Clicking the "Give Me a Hint" button | The system offers the user a hint for their next move |   |   |   |
 
 |Post-condition | 
 |---|
-| |
+| A hint appears on the screen for the user to see. |
 
 
 #
