@@ -43,12 +43,12 @@
 
 |Post-condition | 
 |---|
-|The application is running |
+| The application is running |
 
 
 #
 
-| Test Case #: 1 | Test Case Name: Test the Scan button|
+| Test Case #: 1 | Test Case Name: Test the Scan button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
 | Designed By: | Design Date: 11/20/2016 |
@@ -72,7 +72,7 @@
 #
 
 
-| Test Case #: 2 | Test Case Name: test open button in the Scan view|
+| Test Case #: 2 | Test Case Name: test open button in the Scan view |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
 | Designed By: | Design Date: |
@@ -92,12 +92,88 @@
 |---|
 | the open image box pops up |
 
+
 #
 
 
-| Test Case #: 3 | Test Case Name: test the export button |
+| Test Case #: 3 | Test Case Name: test the create button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
+| Designed By: | Design Date: |
+| Executed By: | Execution Date: |
+| Short Description: test if the create button works|  |
+
+
+|Pre-conditions| 
+|---|
+| the application is running |
+| the title and the main menu are displayed  |
+
+|Step|Action|Expected System Response|Pass/Fail|Comment|
+|---|---|---|---|---|
+|1| click on create button | the view changes and the create view is displayed |   |   |   |
+
+|Post-condition | 
+|---|
+| the create view is displated |
+| input size, solve, check, export and back buttons are displayed |
+
+
+#
+
+
+| Test Case #: 4 | Test Case Name: test the import button |
+| --- | --- |
+| System: Picross Image Puzzle Game  | Subsystem: |
+| Designed By: | Design Date: |
+| Executed By: | Execution Date: |
+| Short Description: test if the import button works|  |
+
+
+|Pre-conditions| 
+|---|
+| the application is running |
+| the title and the main menu are displayed  |
+
+|Step|Action|Expected System Response|Pass/Fail|Comment|
+|---|---|---|---|---|
+|1| click on "import" button | the system opens a window for the user to import a puzzle file from PC |   |   |   |
+
+|Post-condition | 
+|---|
+| the solve view is displayed |
+
+
+#
+
+| Test Case #: 5 | Test Case Name: test the about button |
+| --- | --- |
+| System: Picross Image Puzzle Game  | Subsystem:  |
+| Designed By: | Design Date:11/21/2016 |
+| Executed By: | Execution Date: |
+| Short Description: to test if the about button on the title and main menu view works |  |
+
+
+|Pre-conditions| 
+|---|
+| The application is running |
+
+|Step|Action|Expected System Response|Pass/Fail|Comment|
+|---|---|---|---|---|
+|1| click on about button | the about view is displayed  |   |   |   |
+
+|Post-condition | 
+|---|
+| a brief summary about what Picross Image Puzzle Game is about is diplayed |
+| team members introduction |
+
+
+#
+
+
+| Test Case #: 6 | Test Case Name: test the export button |
+| --- | --- |
+| System: Picross Image Puzzle Game  | Subsystem: Menu|
 | Designed By: | Design Date: 11/21/ 2016|
 | Executed By: | Execution Date: |
 | Short Description: test if the application exports puzzle file|  |
@@ -124,7 +200,7 @@
 #
 
 
-| Test Case #: 4 | Test Case Name:  test the solve button |
+| Test Case #: 7 | Test Case Name:  test the solve button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: |
 | Designed By: | Design Date: 11/21/2016|
@@ -145,7 +221,7 @@
 
 #
 
-| Test Case #: 5 | Test Case Name: Test Give me hint button |
+| Test Case #: 8 | Test Case Name: Test Give me hint button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
@@ -160,9 +236,7 @@
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1| Clicking the "Create" button | The system displays the creation window |   |   |   |
-|2| Clicking the "Solve" button | The system opens up to the solver window |   |   |   |
-|3| Clicking the "Give Me a Hint" button | The system offers the user a hint for their next move |   |   |   |
+|1| Clicking the "Give Me a Hint" button | The system offers the user a hint for their next move |   |   |   |
 
 |Post-condition | 
 |---|
@@ -171,7 +245,30 @@
 
 #
 
-| Test Case #: 6 | Test Case Name: Test the Check button |
+| Test Case #: 9 | Test Case Name: Test Solve it for me button |
+| --- | --- |
+| System: Picross Image Puzzle Game  | Subsystem: Menu |
+| Designed By: | Design Date:11/21/2016 |
+| Executed By: | Execution Date: |
+| Short Description: Tests if the hint button works if clicked |  |
+
+
+|Pre-conditions| 
+|---|
+| The application is running |
+| The player is in the puzzle solver view |
+
+|Step|Action|Expected System Response|Pass/Fail|Comment|
+|---|---|---|---|---|
+|1| Clicking the "Solve it for me" button | The system solves the puzzle for the user |   |   |   |
+
+|Post-condition | 
+|---|
+| the puzzle is solved and the solution is displayed|
+
+#
+
+| Test Case #: 10 | Test Case Name: Test the Check button |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
@@ -182,12 +279,13 @@
 |Pre-conditions| 
 |---|
 | The application is running |
-| The player is in the create puzzle view |
+| The user is in the create puzzle view |
+| the user inputs size nxn |
+| a grid box of size nxn is displayed|
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1| Clicking the "Create" button | The system displays the creation window |   |   |   |
-|2| Clicking the "Check" button | The system displays checks whether the puzzle that's created is a valid and unique puzzle |   |   |   |
+|1| Clicking the "Check" button | The system checks whether the puzzle that's created is a valid and unique puzzle |   |   |   |
 
 |Post-condition | 
 |---|
@@ -196,7 +294,7 @@
 
 #
 
-| Test Case #: 7| Test Case Name: Testing the Back buttons |
+| Test Case #: 11 | Test Case Name: Testing the Back buttons |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
@@ -222,7 +320,7 @@
 
 #
 
-| Test Case #: 8 | Test Case Name: Testing Exit |
+| Test Case #: 12 | Test Case Name: Testing Exit |
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
@@ -244,31 +342,7 @@
 
 #
 
-| Test Case #: 8 | Test Case Name: test the about button |
-| --- | --- |
-| System: Picross Image Puzzle Game  | Subsystem:  |
-| Designed By: | Design Date:11/21/2016 |
-| Executed By: | Execution Date: |
-| Short Description: to test if the about button on the title and main menu view works |  |
-
-
-|Pre-conditions| 
-|---|
-| The application is running |
-
-|Step|Action|Expected System Response|Pass/Fail|Comment|
-|---|---|---|---|---|
-|1| click on about button | the about view is displayed  |   |   |   |
-
-|Post-condition | 
-|---|
-| a brief summary about what Picross Image Puzzle Game is about is diplayed |
-| team members introduction |
-
-
-#
-
-| Test Case #: 9 | Test Case Name: test for correct input size|
+| Test Case #: 13 | Test Case Name: test for correct input size|
 | --- | --- |
 | System: Picross Image Puzzle Game  | Subsystem: Menu|
 | Designed By: | Design Date:11/21/2016 |
@@ -289,6 +363,7 @@
 |---|
 | the sizes that the user inputs are valid and the user can proceeds making the puzzle |
 | the size that the user inputs fall outside the set parametes and the user should consider revising them |
+| a grid box of the same input size is created|
 
 
 
