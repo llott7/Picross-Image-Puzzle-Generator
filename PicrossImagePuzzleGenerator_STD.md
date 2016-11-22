@@ -198,49 +198,51 @@
 
 #
 
-| Test Case #: 7| Test Case Name: |
+| Test Case #: 7| Test Case Name: Testing the Back buttons |
 | --- | --- |
-| System: Picross Image Puzzle Game  | Subsystem: |
+| System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
-| Short Description: |  |
+| Short Description: Testing to make sure that all the back buttons work within the parameters we've set and return to their respective screens |  |
 
 
 |Pre-conditions| 
 |---|
-| |
+| The application is running |
+| The player is in the starting screen for the program |
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1|  | |   |   |   |
+|1|  Clicking from the starting screen to any available screen | The system should respond based on what option the user selects |   |   |   |
+|2|  Clicking on any of the "Back" buttons that are a part of the ui | The system should return you to the previous screen |   |   |   |
 
 |Post-condition | 
 |---|
-| |
+| The system opens up the screen you were at previously |
 
 
 
 #
 
-| Test Case #: 7 | Test Case Name: |
+| Test Case #: 8 | Test Case Name: Testing Exit |
 | --- | --- |
-| System: Picross Image Puzzle Game  | Subsystem: |
+| System: Picross Image Puzzle Game  | Subsystem: Menu |
 | Designed By: | Design Date:11/21/2016 |
 | Executed By: | Execution Date: |
-| Short Description: |  |
+| Short Description: The program should exit or close when the user prompts it to do so.  |  |
 
 
 |Pre-conditions| 
 |---|
-| |
+| The program is running and the user wishes to exit the program |
 
 |Step|Action|Expected System Response|Pass/Fail|Comment|
 |---|---|---|---|---|
-|1|  | |   |   |   |
+|1| The user presses the X button at the top right of the window | The screen proceeds to close |   |   |   |
 
 |Post-condition | 
 |---|
-| |
+| The program is closed. |
 
 
 #
