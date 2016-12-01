@@ -1,3 +1,13 @@
+/*
+	Author: Lance Lott
+	File: State.cpp
+	Description: 
+
+	Changes log:
+	|Description|                                       |Date|         |Performed By|
+	
+*/
+
 #ifndef STATE
 #define STATE
 #pragma once
