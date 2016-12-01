@@ -1,3 +1,18 @@
+/*
+	Author: Shaikha Al-Mashaykhi
+	File: CreateState.cpp
+	Description: This file controls loading all the graphics for the
+				 Create State/view. Also, setting the right positions for
+				 each sprite.
+
+	Changes log:
+	|Description|                                       |Date|         |Performed By|
+	Loading the images, setting textures and Sprites  11/01/2016    Shaikha Al-Mashaykhi
+	Added the draw function                           11/01/2016	Shaikha Al-Mashaykhis
+	added the set positiong for each sprite	          11/30/2016	Shaikha Al-Mashaykhi
+	added the scanState::action		          11/30/2016	Lance Lott
+*/
+
 #include "CreateState.h"
 
 using namespace std;
