@@ -27,11 +27,9 @@ public:
     int lowerSpan;              // For solving, initially 0
     int upperLimit;             // For solving, initially 0
     int lowerLimit;             // For solving, initially 0
-    int answers[MAX_LENGTH];    // For solving, initially empty
+    int size;                   // Value of the clue
     int getSize() const;        // Returns the value of the clue
     bool isSolved;              // True if clue is solved
-private:
-    int size;                   // Value of the clue
 };
 
 #endif /* CLUE_H */

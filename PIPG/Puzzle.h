@@ -22,13 +22,19 @@
  * @param horizSize The horizontal dimensions of the puzzle
  * @param vertSize The vertical dimensions of the puzzle
  */
+
+struct clueLine{
+    Clue *clue[Clue::CLUE_LENGTH];
+    char orientation;
+    int lineNum;
+};
 class Puzzle {
 public:
     Puzzle(int horizSize=0, int vertSize=0);
     virtual ~Puzzle();
     int grid[Clue::MAX_LENGTH][Clue::MAX_LENGTH];        // The solution grid, initially empty
-    Clue *rowClues[Clue::MAX_LENGTH][Clue::CLUE_LENGTH];   // The set of Clue objects for the rows
-    Clue *colClues[Clue::MAX_LENGTH][Clue::CLUE_LENGTH];   // The set of Clue objects for the columns
+    clueLine rowClues[Clue::MAX_LENGTH];                 // The set of Clue objects for the rows
+    clueLine colClues[Clue::MAX_LENGTH];                 // The set of Clue objects for the columns
     int horizSize;  // Horizontal dimension of the puzzle
     int vertSize;   // Vertical dimension of the puzzle
 private:

@@ -23,7 +23,6 @@ Clue::Clue(int size) {
     lowerSpan=0;
     upperLimit=0;
     lowerLimit=0;
-    for(int count=0;count<MAX_LENGTH;count++) answers[count]=0;
     isSolved=false;
 }
 

@@ -15,15 +15,12 @@
 #define SOLVER_H
 #include "LineSolver.h"
 #include "Puzzle.h"
+#include <iostream>
 
 /**
  * clueLine struct, holds information for a line
  */
-struct clueLine{
-    Clue *clue[Clue::CLUE_LENGTH];
-    char orientation;
-    int lineNum;
-};
+
 
 /**
  * Solver object solves a puzzle

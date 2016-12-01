@@ -109,14 +109,14 @@ bool LineSolver::adjustSpan(int line[], Clue *clue[]){
             
             // Check by glue: Adjusts spans for areas based on existing fills in the grid
             for(int countUp=clue[count]->lowerSpan;countUp<clue[count]->upperSpan;countUp++)
-                if(clue[count]->answers[countUp]==1)
+                if(line[countUp]==1 && countUp>prev->upperSpan)
                     if(clue[count]->upperSpan>countUp+clue[count]->getSize()-1){
                         clue[count]->upperSpan=countUp+clue[count]->getSize()-1;
                         changed=true;
                         break;
                     }
             for(int countDown=clue[count]->upperSpan;countDown>clue[count]->lowerSpan;countDown--)
-                if(clue[count]->answers[countDown]==1)
+                if(line[countDown]==1 && countDown<next->lowerSpan)
                     if(clue[count]->lowerSpan<countDown-clue[count]->getSize()+1){
                         clue[count]->lowerSpan=countDown-clue[count]->getSize()+1;
                         changed=true;
@@ -138,7 +138,7 @@ bool LineSolver::adjustGrid(int line[], Clue *clue[]){
     for(int count=0;count<Clue::MAX_LENGTH;count++){
         if(line[count]==0){
             int belongs[Clue::CLUE_LENGTH];
-            for(int clueCount=0;clueCount=Clue::CLUE_LENGTH;clueCount++){
+            for(int clueCount=0;clueCount<Clue::CLUE_LENGTH;clueCount++){
                 belongs[clueCount]=0;
                 if(clue[clueCount]->getSize()>0){
                     if(count>=clue[clueCount]->lowerSpan && count<=clue[clueCount]->upperSpan)

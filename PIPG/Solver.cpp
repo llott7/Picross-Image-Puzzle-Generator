@@ -13,6 +13,7 @@
 
 #include "Solver.h"
 
+using namespace std;
 /**
  * Creates an empty Solver object
  */
@@ -35,28 +36,33 @@ Solver::~Solver() {
  * @return Whether or not the puzzle is solved
  */
 bool Solver::solveLogic(){
-    for(int count=0;count<puzzle->vertSize;count++){
-        clueLine line;
+    /*for(int count=0;count<puzzle->vertSize;count++){
+        clueLine* line=new clueLine;
         for(int clueCount=0;clueCount<Clue::CLUE_LENGTH;clueCount++){
-            line.clue[clueCount]=puzzle->rowClues[count][clueCount];
-            line.clue[clueCount]->lowerSpan=1;
-            line.clue[clueCount]->upperSpan=puzzle->horizSize+1;
+            std::cout << line->clue[clueCount];
+            line->clue[clueCount]=puzzle->rowClues[count][clueCount];
+            line->clue[clueCount]->lowerSpan=1;
+            line->clue[clueCount]->upperSpan=puzzle->horizSize+1;
         }
-        line.lineNum=count;
-        line.orientation='r';
-        clueStack.push_back(line);  // Heap of clueline objects for solving
+        line->lineNum=count;
+        line->orientation='r';
+        clueStack.push_back(*line);  // Heap of clueline objects for solving
     }
     for(int count=0;count<puzzle->horizSize;count++){
-        clueLine line;
+        clueLine* line=new clueLine;
         for(int clueCount=0;clueCount<Clue::CLUE_LENGTH;clueCount++){
-            line.clue[clueCount]=puzzle->colClues[count][clueCount];
-            line.clue[clueCount]->lowerSpan=1;
-            line.clue[clueCount]->upperSpan=puzzle->vertSize;
+            line->clue[clueCount]=puzzle->colClues[count][clueCount];
+            line->clue[clueCount]->lowerSpan=1;
+            line->clue[clueCount]->upperSpan=puzzle->vertSize;
         }
-        line.lineNum=count;
-        line.orientation='c';
-        clueStack.push_back(line);
-    }
+        line->lineNum=count;
+        line->orientation='c';
+        clueStack.push_back(*line);
+    }*/
+    for(int count=0;count<puzzle->vertSize;count++)
+        clueStack.push_back(puzzle->rowClues[count]);
+    for(int count=0;count<puzzle->horizSize;count++)
+        clueStack.push_back(puzzle->colClues[count]);
     LineSolver solve;
     while(!clueStack.empty()){
         int values[Clue::MAX_LENGTH];
@@ -76,7 +82,7 @@ bool Solver::solveLogic(){
                         newLine.lineNum=count;
                         newLine.orientation='c';
                         for(int clueCount=0;clueCount<Clue::CLUE_LENGTH;clueCount++)
-                            newLine.clue[clueCount]=puzzle->colClues[count][clueCount];
+                            newLine.clue[clueCount]=puzzle->colClues[count].clue[clueCount];
                         clueStack.push_back(newLine);
                         puzzle->grid[clueStack.front().lineNum][count]=values[count];
                     }
@@ -87,13 +93,19 @@ bool Solver::solveLogic(){
                         newLine.lineNum=count;
                         newLine.orientation='r';
                         for(int clueCount=0;clueCount<Clue::CLUE_LENGTH;clueCount++)
-                            newLine.clue[clueCount]=puzzle->rowClues[count][clueCount];
+                            newLine.clue[clueCount]=puzzle->rowClues[count].clue[clueCount];
                         clueStack.push_back(newLine);
                         puzzle->grid[count][clueStack.front().lineNum]=values[count];
                     }
             }
             clueStack.erase(clueStack.begin());
         }
+        for(int countH=0;countH<puzzle->horizSize;countH++){
+            for(int countV=0;countV<puzzle->vertSize;countV++)
+                cout << puzzle->grid[countH][countV];
+            cout << endl;
+        }
+        cout << endl;
     }
     bool isSolved=true;     // True if the puzzle is completely solved
     for(int i=0;i<puzzle->horizSize;i++)

@@ -8,17 +8,18 @@
 	added all the main code needed to be implemented in the Menu.cpp file		 10/20/2016    Shaikha Al-Mashaykhi
 	added the action string						                 11/30/2016	Lance Lott
 */
-
-
 #ifndef MENU_STATE
 #define MENU_STATE
 #pragma once
 #include <cstdlib>
 #include <iostream>
+#include <fstream>
+#include <sstream>
 #include "SFML/Graphics.hpp"
 #include "State.h"
 #include <Windows.h>
 #include <ShObjIdl.h>
+#include "Solver.h"
 
 class Menu: public State
 {

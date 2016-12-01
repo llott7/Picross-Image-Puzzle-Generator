@@ -67,8 +67,9 @@ build/Debug/MinGW-Windows/main.o: main.cpp \
  SFML-2.4.0/include/SFML/Graphics/Glsl.hpp \
  SFML-2.4.0/include/SFML/Graphics/Glsl.inl \
  SFML-2.4.0/include/SFML/Graphics/Sprite.hpp \
- SFML-2.4.0/include/SFML/Graphics/Text.hpp Menu.h State.h ScanState.h \
- CreateState.h SolveState.h AboutState.h
+ SFML-2.4.0/include/SFML/Graphics/Text.hpp Menu.h State.h Solver.h \
+ LineSolver.h Clue.h Puzzle.h ScanState.h CreateState.h SolveState.h \
+ AboutState.h
 
 SFML-2.4.0/include/SFML/Graphics.hpp:
 
@@ -215,6 +216,14 @@ SFML-2.4.0/include/SFML/Graphics/Text.hpp:
 Menu.h:
 
 State.h:
+
+Solver.h:
+
+LineSolver.h:
+
+Clue.h:
+
+Puzzle.h:
 
 ScanState.h:
 

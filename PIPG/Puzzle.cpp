@@ -21,10 +21,32 @@
 Puzzle::Puzzle(int horizSize, int vertSize) {
     this->horizSize=horizSize;
     this->vertSize=vertSize;
-    for(int count=0;count<Clue::MAX_LENGTH;count++){
-        grid[count][count]=0;
-        rowClues[count][count]=new Clue();
-        colClues[count][count]=new Clue();
+    for(int countH=0;countH<Clue::MAX_LENGTH;countH++)
+        for(int countV=0;countV<Clue::MAX_LENGTH;countV++)
+            grid[countH][countV]=0;
+    for(int count=0;count<vertSize;count++){
+        clueLine* line=new clueLine;
+        for(int clueCount=0;clueCount<Clue::CLUE_LENGTH;clueCount++){
+            Clue* newClue=new Clue(0);
+            line->clue[clueCount]=newClue;
+            line->clue[clueCount]->lowerSpan=1;
+            line->clue[clueCount]->upperSpan=horizSize+1;
+        }
+        line->lineNum=count;
+        line->orientation='r';
+        rowClues[count]=*line;
+    }
+    for(int count=0;count<horizSize;count++){
+        clueLine* line=new clueLine;
+        for(int clueCount=0;clueCount<Clue::CLUE_LENGTH;clueCount++){
+            Clue* newClue=new Clue(0);
+            line->clue[clueCount]=newClue;
+            line->clue[clueCount]->lowerSpan=1;
+            line->clue[clueCount]->upperSpan=vertSize+1;
+        }
+        line->lineNum=count;
+        line->orientation='c';
+        colClues[count]=*line;
     }
 }
 
