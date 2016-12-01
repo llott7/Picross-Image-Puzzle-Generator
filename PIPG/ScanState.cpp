@@ -1,3 +1,18 @@
+/*
+	Author: Shaikha Al-Mashaykhi
+	File: ScanState.cpp
+	Description: This file controls loading all the graphics for the 
+				 Scan State/view. Also, setting the right positions for 
+				 each sprite.
+
+	Changes log:
+	|Description|                                       |Date|         |Performed By|
+	Loading the images, setting textures and Sprites  10/20/2016    Shaikha Al-Mashaykhi
+	Added the draw function                           10/20/2016	Shaikha Al-Mashaykhis
+	added the set positiong for each sprite		  11/30/2016	Shaikha Al-Mashaykhi
+	added the scanState::action			  11/30/2016	Lance Lott
+*/
+
 #include "ScanState.h"
 
 using namespace std;
@@ -41,7 +56,6 @@ ScanState::ScanState(sf::RenderWindow &window):State(window)
 	}
 
 
-
 	// set texture for each sprite of the same name
 	scanOptionS.setTexture(scanOptionT);
 	titleS.setTexture(titleT);
@@ -51,6 +65,14 @@ ScanState::ScanState(sf::RenderWindow &window):State(window)
 	openOptionS.setTexture(openOptionT);
 	exportOptionS.setTexture(exportOptionT);
 
+	//set the title in the top left of the window
+	titleS.setPosition(5.f, 5.f);
+
+	//set position of scan option image
+	solveOptionS.setPosition(window.getSize().x / 10.5, window.getSize().y / 1.2);
+	backOptionS.setPosition(window.getSize().x / 10.5, window.getSize().y / 1.1);
+	openOptionS.setPosition(window.getSize().x / 1.3, window.getSize().y / 1.2);
+	exportOptionS.setPosition(window.getSize().x / 1.3, window.getSize().y / 1.1);
 
 }
 
@@ -66,9 +88,6 @@ void ScanState::draw(sf::RenderWindow &window)
 	window.draw(exportOptionS);
 
 }
-
-//void ScanState::update(float dt) { }
-
 
 ScanState::~ScanState()
 {
