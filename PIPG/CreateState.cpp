@@ -71,6 +71,18 @@ CreateState::CreateState(sf::RenderWindow &window):State(window)
 	backOptionS.setTexture(backOptionT);
 	checkOptionS.setTexture(checkOptionT);
 	exportOptionS.setTexture(exportOptionT);
+	
+	//set the title in the top left of the window
+	titleS.setPosition(5.f, 5.f);
+
+	//set the position input text under the title on the top left of the window
+	sizeInputS.setPosition(6.f, 6.f);
+
+	//set position of scan option image
+	solveOptionS.setPosition(window.getSize().x / 10.5, window.getSize().y / 1.2);
+	backOptionS.setPosition(window.getSize().x / 10.5, window.getSize().y / 1.1);
+	checkOptionS.setPosition(window.getSize().x / 1.3, window.getSize().y / 1.2);
+	exportOptionS.setPosition(window.getSize().x / 1.3, window.getSize().y / 1.1);
 }
 
 //draw the sprites to display them
