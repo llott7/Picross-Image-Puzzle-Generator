@@ -15,13 +15,13 @@ CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
 CND_PACKAGE_NAME_Debug=pipg.tar
 CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/pipg.tar
 # Release configuration
-CND_PLATFORM_Release=Cygwin-Windows
-CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
+CND_PLATFORM_Release=MinGW_1-Windows
+CND_ARTIFACT_DIR_Release=dist/Release/MinGW_1-Windows
 CND_ARTIFACT_NAME_Release=pipg
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/pipg
-CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW_1-Windows/pipg
+CND_PACKAGE_DIR_Release=dist/Release/MinGW_1-Windows/package
 CND_PACKAGE_NAME_Release=pipg.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/pipg.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW_1-Windows/package/pipg.tar
 #
 # include compiler specific variables
 #
