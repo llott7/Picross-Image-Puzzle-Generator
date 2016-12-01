@@ -95,6 +95,25 @@ int main()
 					runningState = newState;
 					current_state = nextState;
 				}
+				if (nextState == "Create") {
+					window.clear(sf::Color(255, 0, 0, 255));
+					State* newState = new CreateState(window);
+					newState->draw(window);
+					window.display();
+					delete runningState;
+					runningState = newState;
+					current_state = nextState;
+				}
+				/*if (nextState == "About") {
+					window.clear(sf::Color(255, 0, 0, 255));
+					State* newState = new AboutState(window);
+					newState->draw(window);
+					window.display();
+					delete runningState;
+					runningState = newState;
+					current_state = nextState;
+				}*/
+
 			}
 		}
 
