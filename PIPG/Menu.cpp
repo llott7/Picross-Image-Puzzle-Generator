@@ -1,3 +1,20 @@
+/*
+	Author: Shaikha Al-Mashaykhi
+	File: Menu.cpp
+	Description: This file controls loading all the graphics for the
+				 main menu State/view. Also, setting the right positions for
+				each sprite.
+				Also, this file handles selecting the options on the main menu, switching
+				and navigating betwee nthe states.
+
+	Changes log:
+	|Description|                                       |Date|         |Performed By|
+	Loading the images, setting textures and Sprites  11/01/2016    Shaikha Al-Mashaykhi
+	Added the draw function                           11/01/2016	Shaikha Al-Mashaykhis
+	added the set positiong for each sprite		  11/30/2016	Shaikha Al-Mashaykhi
+	added the scanState::action			  11/30/2016	Lance Lott
+*/
+
 #include "Menu.h"
 #include <iostream>
 
