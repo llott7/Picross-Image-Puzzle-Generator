@@ -1,3 +1,14 @@
+/*
+	Author: Shaikha Al-Mashaykhi
+	File: SolveState.h
+	Description: The header file for the SolveState.cpp
+
+	Changes log:
+	|Description|							 	       |Date|         |Performed By|
+	added all the main code needed to be implemented in the SolveState.cpp file  10/20/2016    Shaikha Al-Mashaykhi
+	added the action string		       		                             11/30/2016    Lance Lott
+*/
+
 #ifndef SOLVE_STATE
 #define SOLVE_STATE
 #pragma once
