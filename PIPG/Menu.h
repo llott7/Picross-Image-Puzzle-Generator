@@ -1,3 +1,15 @@
+/*
+	Author: Shaikha Al-Mashaykhi
+	File: Menu.h
+	Description: The header file for the Menu.cpp
+
+	Changes log:
+	|Description|			                      				   |Date|         |Performed By|
+	added all the main code needed to be implemented in the Menu.cpp file		 10/20/2016    Shaikha Al-Mashaykhi
+	added the action string						                 11/30/2016	Lance Lott
+*/
+
+
 #ifndef MENU_STATE
 #define MENU_STATE
 #pragma once
