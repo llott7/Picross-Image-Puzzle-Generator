@@ -156,7 +156,7 @@
 
    The loss of morale and inappropriate allotment of time were an issue for the project. While we tried to communicate as much and as often as possible, the case was just that sometimes we weren’t nearly as active as we should have been and that caused the project to function in a somewhat suboptimal manner. The entirety of the project was coded in C++ and Zackery and Shaikha had no previous C++ experience, so they had to learn these concepts and implementation schemes on the fly. Several factors including this and unresponsiveness caused us to lose a lot of much needed time to work on the project.
     
-    Sickness played a bit of a factor in how we ran our project as well, given that some of us couldn’t attend meetings because they were sick. Given how small our group of people were, this was something that greatly impacted the way we would work and how we would be able to get work done efficiently. This lead to some missed opportunities and deadlines which caused us all to have work harder and smarter when it came to the project so that we would efficiently and effectively complete the project.
+   Sickness played a bit of a factor in how we ran our project as well, given that some of us couldn’t attend meetings because they were sick. Given how small our group of people were, this was something that greatly impacted the way we would work and how we would be able to get work done efficiently. This lead to some missed opportunities and deadlines which caused us all to have work harder and smarter when it came to the project so that we would efficiently and effectively complete the project.
 
 
 **Time Risk**
@@ -197,7 +197,7 @@
 
    From the first day of development, we decided that the Egoless approach would make the most sense given the project and what we wanted it to do and how it should have worked. This is why Lance was the lead programmer as he had the best knowledge of both the language that we built the project on (C++) and the game that we were building the project around. (Picross)
 
-    From there, Shaikha and Zackery were assigned to both the UI design and to test and document the project, respectively. Given Shaikha’s knowledge and experience with UI design and Zackery’s developmental plans and documentary abilities, this was also the best and choice outcome for the approach of the project. 
+   From there, Shaikha and Zackery were assigned to both the UI design and to test and document the project, respectively. Given Shaikha’s knowledge and experience with UI design and Zackery’s developmental plans and documentary abilities, this was also the best and choice outcome for the approach of the project. 
     
     Everyone offered and input their ideas on how the project should be built, what environment it should be built on, how it should work, etc. This is all something that the Egoless approach is keen on, so, we knew that for the project to progress successfully, that this is the style that we would have to use.
     
@@ -211,6 +211,29 @@
 
    From the day of conception to the time we actually started to code and develop the project, we shifted our milestones around to fit best with what we found to be feasible and necessary. Our initial lead programmer had to drop the class about a month into the semester, so, we chose to not include those meetings and dates, but the ones that are relevant to the Picross Image Puzzle Generator project.
    
+|Milestones|Date Started|Date Completed|Description|
+|---|---|---|---|---|
+|Cinceive new idea| 9/19/16 | 9/28/16 | Think of a new idea because Micael dropped the class  |
+|Establish roles and goals| 9/28/16 | 9/30/16 | Assign our roles for the project and outline the purpose for making it  |
+|Read up and understand the tools used for implementation| 9/30/16 | 10/2/16 | Familiarize ourselves with the tools that we’re going to use. (OpenCV, SFML, Visual Studio, etc.) |
+|Reshape and form UI | 10/7/16 | 10/28/16 | List the requirements of the project as well as create a rough UI |
+| Complete the SRS document | 10/8/16 | 10/15/16 | Finish and submit the Software Requirements Specification document |
+| Base Solver class  | 9/30/16 | 10/26/16 | Complete the class Solver, allowing the program to solve a puzzle |
+| Finalize and complete the UI design | 10/3/16 | 10/28/16 | Complete the class Solver, allowing the program to solve a puzzle |
+| Complete the SDD | 10/3/16 | 11/2/16 | Finish and submit the Software Design Document |
+| Work on integrating SFML and OpenCV | 11/2/16 | 11/29/16 | Tie up all of our code together and get the UI to respond with it |
+| Solver and Hint system | 10/26/16 | 11/18/16 | Try to get the Solver to work with the Hint system. (Was not met) |
+| Complete the STD | 11/17/16 | 11/19/16 | Finish and submit the Software Testing Document |
+| Code for demo | 11/20/16 | 11/28/16 | Prepare and code for the final presentation demo |
+| Finalize code | 11/30/16 | 12/1/16 | Completely finish and commit final code to GitHub, meet with TA for grading |
+
+
+
+
+
+
+
+
    
 **Estimates**
 
