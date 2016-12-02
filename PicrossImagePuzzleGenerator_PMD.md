@@ -65,19 +65,18 @@
 
 **Project Scope**
 
-   The purpose of our project is rather simple: to create something that will be new and unique, but also helpful to others. Our main idea while conceiving this project was to think of something that we enjoyed, which could’ve been a game, program, movie, etc., and then think of some way to make that thing better. 
-   
- That’s when we came across the idea of making a helpful tool for Picross players both old and new. Whether it be someone that just picked up the game and wanted to have something to show them the ropes and help them out when they get stuck or someone that’s a veteran, but can’t figure out that one daunting puzzle to save their life, we wanted the program to be accessible to all from the very beginning.
+The purpose of our project is rather simple: to create something that will be new and unique, but also helpful to others. Our main idea while conceiving this project was to think of something that we enjoyed, which could’ve been a game, program, movie, etc., and then think of some way to make that thing better. 
+That’s when we came across the idea of making a helpful tool for Picross players both old and new. Whether it be someone that just picked up the game and wanted to have something to show them the ropes and help them out when they get stuck or someone that’s a veteran, but can’t figure out that one daunting puzzle to save their life, we wanted the program to be accessible to all from the very beginning.
  
  
 **Ideology**
 
-   We wanted to craft something that was, to our knowledge, nonexistent. We saw the opportunity to take something that was in heavy demand due to the popularity of the game (A Picross solver) and combine it with something new and exciting so that it’d give people a reason to want to try it out. (A Picross helper/scanner)
+We wanted to craft something that was, to our knowledge, nonexistent. We saw the opportunity to take something that was in heavy demand due to the popularity of the game (A Picross solver) and combine it with something new and exciting so that it’d give people a reason to want to try it out. (A Picross helper/scanner)
    
    
 **Ultimate Goal**
 
-   Make something that’s both fun for the developers (us) to conceive and use and enjoyable to the user base is the ultimate goal of this project. Throughout the entirety of our project, we prided ourselves on how unique of a project we had and constantly tried to think up ways to make it more innovative and fun to use. 
+Make something that’s both fun for the developers (us) to conceive and use and enjoyable to the user base is the ultimate goal of this project. Throughout the entirety of our project, we prided ourselves on how unique of a project we had and constantly tried to think up ways to make it more innovative and fun to use. 
 
 
 -----
@@ -85,9 +84,12 @@
 
 **Waterfall Method**
 
-   It was established very early on into the idea conception period that the Waterfall methodology was something that fit into what we were trying to achieve the most. Early on, we established the requirements with the help of the Software Requirements Specification document and that began the “waterfall” of development for the project. While, traditionally, the waterfall method is something that is somewhat of a locked cycle, meaning that once it’s started there isn’t any room to change or modify anything., we happened to change a few things during the development cycle. While this was suboptimal and we feel that maybe an iterative approach would’ve been more sufficient, the waterfall method still provided us with a decent skeletal framework to get our project done efficiently.  
+![Waterfall](https://s14.postimg.org/stp7camdt/waterfall.jpg)
 
-   We felt that we needed to change up some of the initial features of the project that were a little too ambitious given our window of time and that’s what caused us to diverge from the waterfall a slight bit. Because of this, we realized that Phased Development model might have been the better choice, given that it would’ve enabled us to release our bare bones Solver, which was completed very early into the dev cycle, and then constantly and consistently release feature updates from there.
+
+It was established very early on into the idea conception period that the Waterfall methodology was something that fit into what we were trying to achieve the most. Early on, we established the requirements with the help of the Software Requirements Specification document and that began the “waterfall” of development for the project. While, traditionally, the waterfall method is something that is somewhat of a locked cycle, meaning that once it’s started there isn’t any room to change or modify anything., we happened to change a few things during the development cycle. While this was suboptimal and we feel that maybe an iterative approach would’ve been more sufficient, the waterfall method still provided us with a decent skeletal framework to get our project done efficiently.  
+
+We felt that we needed to change up some of the initial features of the project that were a little too ambitious given our window of time and that’s what caused us to diverge from the waterfall a slight bit. Because of this, we realized that Phased Development model might have been the better choice, given that it would’ve enabled us to release our bare bones Solver, which was completed very early into the dev cycle, and then constantly and consistently release feature updates from there.
 
 
 -----
@@ -95,11 +97,13 @@
 
 **GitHub**
 
-   The team used GitHub in every facet of building the project as a whole. We used it to create the .md files for most of our documents, outside of this one, as well as used it to for outright code commits for our main Solver and GUI based code. When the project is completely done, everything that we’ve built and done so far should be available for viewing. Below is an example of one of the things we used GitHub for. Because of its easy ability to share and edit in realtime, markdown was an easy choice to use for documentation.
+The team used GitHub in every facet of building the project as a whole. We used it to create the .md files for most of our documents, outside of this one, as well as used it to for outright code commits for our main Solver and GUI based code. When the project is completely done, everything that we’ve built and done so far should be available for viewing. Below is an example of one of the things we used GitHub for. Because of its easy ability to share and edit in realtime, markdown was an easy choice to use for documentation.
    
-   GitHub was also useful in the fact that it’s really easy to share the repository to anyone that might be slightly interested in looking at our project and providing us with feedback. While most of the code wasn’t pushed until later on, we still had all the documents up as soon as they were done for the sake of feedback on how it was structured.
+![md](https://s13.postimg.org/j4cw03s4n/image.png)
    
-   GitHub was used for the final code commit of our project, which is available for viewing at this very moment. (URL: https://github.com/llott7/Picross-Image-Puzzle-Generator/tree/master/PIPG)
+GitHub was also useful in the fact that it’s really easy to share the repository to anyone that might be slightly interested in looking at our project and providing us with feedback. While most of the code wasn’t pushed until later on, we still had all the documents up as soon as they were done for the sake of feedback on how it was structured.
+
+GitHub was used for the final code commit of our project, which is available for viewing at this very moment. (URL: https://github.com/llott7/Picross-Image-Puzzle-Generator/tree/master/PIPG)
 
 
 **Google Drive**
@@ -131,7 +135,7 @@
    
 **Project Code**
 
-
+![code](https://s11.postimg.org/s4ypkaow3/code.png)
    
    The final project code (as shown above in GitHub) is what contains the entirety of our project. This is what we outlined and tested in all the documents. (also listed above) Inside the repository are all of files needed to run and reproduce what we’ve coded including the solver, the UI, the images used for the UI, etc. 
 
@@ -143,8 +147,11 @@
    
 **How to use the PIPG**
 
-  
+![main_Screen](https://s17.postimg.org/54wr3l4xb/main_Screen.png)
+
   This is the main menu screen, which you can view upon running the file that I outlined in the previous section. From here, you can choose to do a variety of different things in the program, including scanning, creating, solving, or importing a Picross puzzle file. Clicking the respective word will take you to the respective screen. For instance, clicking scan will take you to: 
+  
+  ![Scan_Option_Window1](https://s18.postimg.org/5z0opyba1/Scan_Option_Window1.png)
   
   Which happens to be the window that we use for the scan option. This works with every one of the buttons listed in the main menu. Not seen here is the close button for the window, but it’s there when you run the actual file itself.
   
