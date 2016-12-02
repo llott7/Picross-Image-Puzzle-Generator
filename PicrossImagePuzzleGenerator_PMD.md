@@ -257,27 +257,20 @@ GitHub was used for the final code commit of our project, which is available for
 **Estimation Method**
 
 * **PERT**
+
 Pessimistic = 16 weeks (under detrimental circumstances)
-
 Optimistic =  10 weeks (under advantageous circumstances)
-
 Likely = 13 weeks (under completely normal circumstances, no setbacks)
-
 Estimate = (p + 4*l + o)/6
-
 Estimate = (16 +4(13) + 10)/6 =  13 weeks
 
 
 * **Algorithmic Methods**
 
 Walston/Felix Model: 5.25 * S^(.91) = PM
-
 For our project, S is equivalent to approximately 2.5. As 2500 lines of code for the project equal 2.5 KLOC which equals S.
-
 5.25 * 2.5^(.91) = 12 PM
-
 Baily/Basili Model: 5.5 + 0.73S^(1.16) = PM
-
 5.5 + .73(2.5^(1.16)) = 8 PM
 
 So, by these models, if you divide the person months by the number of developers (3), you’ll find that the Walston/Felix model was accurate in the amount of time it predicted to develop our project. (Roughly 3-4 months)
@@ -286,4 +279,40 @@ So, by these models, if you divide the person months by the number of developers
 ----
 ###8. Meeting Summaries
 
+![meeting1](https://s15.postimg.org/788d4kj0b/meeting1.png)
+
+**Summary:** This was the first meeting that we had as a new group and we discussed several possible new ideas for a new project. What we decided on for the new initiative was something that Lance thought of while playing Picross and was the Picross Image Puzzle Generator. (PIPG) At this meeting, we discussed and outlined what we wanted from the project and what we wanted from each other. We established which structure the team would use while working on the project.
+
+
+![meeting2](https://s17.postimg.org/ks9xbwpa7/meeting2.png)
+
+**Summary:** There were a multitude of topics discussed at this meeting since it was the first one where we had a legitimate idea for a project. We decided that we were going to code the entirety of the project using C++ as well as outlined what exactly the needs of the project were. We needed to have something that solved the Picross puzzles as well as something that could import and export the files of the puzzles. A stretch goal we added was picture recognition.
+
+
+![meeting3](https://s12.postimg.org/om33hn6x9/meeting3.png)
+
+**Summary: ** At this meeting we outlined and solidified what we wanted our requirements to be as well as began working on a UI to fit the mold of what we wanted. The requirements came out to be: User friendly (given we wanted it to be accessible to both children and adults), in C++ because that was the main programmer’s best language, the ability to import and export puzzles because that’s what the problem hinges on, and the ability to check if there’s a unique solution, which is important to a Picross puzzle.
+
+
+
+![meeting4](https://s17.postimg.org/lvy311ozz/meeting4.png)
+
+**Summary:** At this meeting, Shaikha and Zackery met after class and discussed and finished the SDD. Nothing was discussed about the project, all the time was spent working on the document. Lance missed because of prior plans.
+
+
+
+![meeting5](https://s15.postimg.org/3qa77jvkr/meeting5.png)
+
+**Summary:** We met shortly to discuss what our plan of action was going to be moving forward. There was still a lot of things that needed to be implemented and we had a quick discussion with Dr. Nash about how we should approach it.
+
+
+
+![meeting6](https://s14.postimg.org/iuu7zs59d/meeting6.png)
+
+**Summary:** We all met to work on the code for the demo before we had to present it. We tried to get all our files in order and all of our libraries implemented beforehand. We went over who had to speak on what part of the presentation as well as what we were going to show and how we were going to describe and explain our project concisely within the time duration.
+
+
+![meeting7](https://s14.postimg.org/vvzx6tc5d/meeting7.png)
+
+**Summary:** This one last meeting was to finish up and polish the code as best as possible as well as fix any issues that we were having. We got good amout of the things to work and build properly and the code to work the way we wanted it to going into the meeting with the TA. 
 
