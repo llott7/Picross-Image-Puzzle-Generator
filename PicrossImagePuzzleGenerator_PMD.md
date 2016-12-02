@@ -243,7 +243,7 @@ Aside from some information about OpenCV and a few suggestions, my contribution 
    
 **Estimates**
  
- ![chart](https://s11.postimg.org/q5j95kb9v/chart.png)
+![chart](https://s11.postimg.org/q5j95kb9v/chart.png)
  
 **Schedule**
 
