@@ -194,11 +194,14 @@ GitHub was used for the final code commit of our project, which is available for
    - UI Design
    - Documentation
    
+Aside from stating my opinions and suggestions for the the project. My main job was to work on the design of the project and to figure out the SFML coding part to upload the assets of the game, where Lance's part was the functionaloty coding for the GUI base code I made. Second main role was helping with the documentations and working on the markdown format then committing on github the initial files for edits. I helped and worked on the Software Requirement Specifications Document, the Software Design Document, the Software Testing Document, and the Project Management Document. I also worked on keeping records of our meetings and keeping things up to date with the deadlines. I attended all the meetings documented, and the very short undocumented meetings we had at the beginnign right after the class. I only missed one meeting because I was out of town for the Grace Hoppe Conference. Zackery and I were activly updating the progress with the project almost every weekend or twice a week. Because I haven't been able to help much with the coding the past month because of health conditions, and because of some lack of communication with the main programmer the progress of the project was slowed down alot.
+   
 **Zachery Lavalais**
 
    - Documentation
    - Testing
-   
+
+Aside from some information about OpenCV and a few suggestions, my contribution to the code was minimal. My main job was to be the documentarian as well as help with the testing and offer ideas for the project while Lance coded the main program and Shaikha coded and designed the UI. Along with that, I worked on the Software Requirements Specifications (SRS) document, the Software Design Document (SDD), the Software Testing Document (STD), as well as the Project Management Document. As stated above, my code contribution was only some slight help with the OpenCV implementation and not much else. I missed maybe one or two minor, undocumented meetings between Lance and Shaikha when I was out sick once. It was just a quick after class thing a couple of times, from what I hear from the two of them. 
    
 **Programming Approach/Team Style**
 
@@ -291,7 +294,7 @@ So, by these models, if you divide the person months by the number of developers
 
 ![meeting3](https://s12.postimg.org/om33hn6x9/meeting3.png)
 
-**Summary: ** At this meeting we outlined and solidified what we wanted our requirements to be as well as began working on a UI to fit the mold of what we wanted. The requirements came out to be: User friendly (given we wanted it to be accessible to both children and adults), in C++ because that was the main programmer’s best language, the ability to import and export puzzles because that’s what the problem hinges on, and the ability to check if there’s a unique solution, which is important to a Picross puzzle.
+**Summary:** At this meeting we outlined and solidified what we wanted our requirements to be as well as began working on a UI to fit the mold of what we wanted. The requirements came out to be: User friendly (given we wanted it to be accessible to both children and adults), in C++ because that was the main programmer’s best language, the ability to import and export puzzles because that’s what the problem hinges on, and the ability to check if there’s a unique solution, which is important to a Picross puzzle.
 
 
 
