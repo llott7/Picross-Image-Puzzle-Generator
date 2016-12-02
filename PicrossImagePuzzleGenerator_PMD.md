@@ -199,7 +199,7 @@
 
    From there, Shaikha and Zackery were assigned to both the UI design and to test and document the project, respectively. Given Shaikha’s knowledge and experience with UI design and Zackery’s developmental plans and documentary abilities, this was also the best and choice outcome for the approach of the project. 
     
-    Everyone offered and input their ideas on how the project should be built, what environment it should be built on, how it should work, etc. This is all something that the Egoless approach is keen on, so, we knew that for the project to progress successfully, that this is the style that we would have to use.
+   Everyone offered and input their ideas on how the project should be built, what environment it should be built on, how it should work, etc. This is all something that the Egoless approach is keen on, so, we knew that for the project to progress successfully, that this is the style that we would have to use.
     
     
 
@@ -230,18 +230,42 @@
 
 
 
-
-
-
-
    
 **Estimates**
 
 **Schedule**
 
+
+|Week Number |Date |Objective | Description|
+|---|---|---|---|
+|1 and 2 |  (9/16/16 - 9/30/16) | Conceive and confirm a new idea for the project and create roles | Make a new idea project that we all agree on and assign responsibilities |
+|3 | (10/1/16 - 10/8/16) | Craft the initial UI design and start on SRS document  | Develop a UI that best fits what our program is to be used for. Make sure it’s easy to use and start on the SRS | 
+|4 | (10/9/16 - 10/16/16) | SRS document completion and work on Solver class code | Finish the SRS and continue code work on the Solver class, which is the base of the project |
+|5-7 | (10/17/16 -10/31/16) | Complete Solver class code and UI design and begin work on the SDD | Solver class is completed, so work begins on implementing other methods along with the completion of the UI design| 
+|8 |  (11/1/16 - 11/8/16)| SDD completion. OpenCV and SFML integration. Work on Hint System | Complete and submit the SDD as well as begin work on SFML implementation. Figure out how OpenCV ties in and start code on the hint system |
+| 9-11 | (11/9/16 - 11/21/16) | STD completion, hint system issues rework, and demo code | Finish and submit the STD and try to resolve the issues we ran into with the hint system. Begin hard coding |
+| final weeks | -  | Demo Presentation and Finalization of code | Continue work on demo code as well as present it. Commit final code to GitHub for grading |
+
+
 **Estimation Method**
 
+* **PERT**
+Pessimistic = 16 weeks (under detrimental circumstances)
+Optimistic =  10 weeks (under advantageous circumstances)
+Likely = 13 weeks (under completely normal circumstances, no setbacks)
+Estimate = (p + 4*l + o)/6
+Estimate = (16 +4(13) + 10)/6 =  13 weeks
 
+
+* **Algorithmic Methods**
+Walston/Felix Model: 5.25 * S^(.91) = PM
+For our project, S is equivalent to approximately 2.5. As 2500 lines of code for the project equal 2.5 KLOC which equals S.
+5.25 * 2.5^(.91) = 12 PM
+Baily/Basili Model: 5.5 + 0.73S^(1.16) = PM
+5.5 + .73(2.5^(1.16)) = 8 PM
+
+
+So, by these models, if you divide the person months by the number of developers (3), you’ll find that the Walston/Felix model was accurate in the amount of time it predicted to develop our project. (Roughly 3-4 months)
 ----
 ###8. Meeting Summaries
 
