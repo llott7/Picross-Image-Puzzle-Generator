@@ -264,18 +264,26 @@ Aside from some information about OpenCV and a few suggestions, my contribution 
 * **PERT**
 
 Pessimistic = 16 weeks (under detrimental circumstances)
+
 Optimistic =  10 weeks (under advantageous circumstances)
+
 Likely = 13 weeks (under completely normal circumstances, no setbacks)
+
 Estimate = (p + 4*l + o)/6
+
 Estimate = (16 +4(13) + 10)/6 =  13 weeks
 
 
 * **Algorithmic Methods**
 
 Walston/Felix Model: 5.25 * S^(.91) = PM
+
 For our project, S is equivalent to approximately 2.5. As 2500 lines of code for the project equal 2.5 KLOC which equals S.
+
 5.25 * 2.5^(.91) = 12 PM
+
 Baily/Basili Model: 5.5 + 0.73S^(1.16) = PM
+
 5.5 + .73(2.5^(1.16)) = 8 PM
 
 So, by these models, if you divide the person months by the number of developers (3), you’ll find that the Walston/Felix model was accurate in the amount of time it predicted to develop our project. (Roughly 3-4 months)
