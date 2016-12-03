@@ -223,7 +223,7 @@ Aside from some information about OpenCV and a few suggestions, my contribution 
    
 |Milestones|Date Started|Date Completed|Description|
 |---|---|---|---|---|
-|Cinceive new idea| 9/19/16 | 9/28/16 | Think of a new idea because Micael dropped the class  |
+|Conceive new idea| 9/19/16 | 9/28/16 | Think of a new idea because Michael dropped the class  |
 |Establish roles and goals| 9/28/16 | 9/30/16 | Assign our roles for the project and outline the purpose for making it  |
 |Read up and understand the tools used for implementation| 9/30/16 | 10/2/16 | Familiarize ourselves with the tools that we’re going to use. (OpenCV, SFML, Visual Studio, etc.) |
 |Reshape and form UI | 10/7/16 | 10/28/16 | List the requirements of the project as well as create a rough UI |
